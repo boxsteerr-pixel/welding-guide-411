@@ -1,4 +1,4 @@
-const CACHE_NAME = "welding-guide-411-v11";
+const CACHE_NAME = "welding-guide-411-v12";
 const CACHE_PREFIX = "welding-guide-411-";
 const APP_ROOT = new URL("./", self.location.href);
 const CORE_ASSETS = [
@@ -16,7 +16,26 @@ const CORE_ASSETS = [
   "./manifest.json",
   "./assets/icons/icon.svg",
   "./assets/icons/icon-192.png",
-  "./assets/icons/icon-512.png"
+  "./assets/icons/icon-512.png",
+  "./assets/images/procedures/glass-cleaning-2.webp",
+  "./assets/images/procedures/glass-cleaning-3.webp",
+  "./assets/images/procedures/glass-cleaning-4.webp",
+  "./assets/images/procedures/rofin-laser-1.webp",
+  "./assets/images/procedures/rofin-laser-2.webp",
+  "./assets/images/procedures/rofin-laser-3.webp",
+  "./assets/images/procedures/rofin-laser-4.webp",
+  "./assets/images/procedures/rofin-laser-5.webp",
+  "./assets/images/procedures/width-alarm-check-1.webp",
+  "./assets/images/procedures/laser-alarm-history-1.webp",
+  "./assets/images/procedures/laser-alarm-history-2.webp",
+  "./assets/images/procedures/qcds-sensor-parameters-1.webp",
+  "./assets/images/procedures/qcds-sensor-parameters-2.webp",
+  "./assets/images/procedures/qcds-sensor-parameters-3.webp",
+  "./assets/images/procedures/qcds-camera-change-1.webp",
+  "./assets/images/procedures/tia-program-download-1.webp",
+  "./assets/images/procedures/tia-program-download-2.webp",
+  "./assets/images/procedures/tia-program-download-3.webp",
+  "./assets/images/procedures/guide-wheel-height-1.webp"
 ].map(function (path) { return new URL(path, APP_ROOT).toString(); });
 
 function isCacheable(response) {
