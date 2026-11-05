@@ -1,4 +1,4 @@
-const CACHE_NAME = "welding-guide-411-v15";
+const CACHE_NAME = "welding-guide-411-v16";
 const CACHE_PREFIX = "welding-guide-411-";
 const APP_ROOT = new URL("./", self.location.href);
 const CORE_ASSETS = [
@@ -25,17 +25,17 @@ const CORE_ASSETS = [
   "./assets/images/procedures/glass-cleaning-4-panel-1-annotated.webp",
   "./assets/images/procedures/glass-cleaning-4-panel-2-annotated.webp",
   "./assets/images/procedures/glass-cleaning-4-panel-3-annotated.webp",
-  "./assets/images/procedures/rofin-recomposed-01.webp",
-  "./assets/images/procedures/rofin-recomposed-02.webp",
-  "./assets/images/procedures/rofin-recomposed-03.webp",
-  "./assets/images/procedures/rofin-recomposed-04.webp",
-  "./assets/images/procedures/rofin-recomposed-05.webp",
-  "./assets/images/procedures/rofin-recomposed-06.webp",
-  "./assets/images/procedures/rofin-recomposed-07.webp",
-  "./assets/images/procedures/rofin-recomposed-08.webp",
-  "./assets/images/procedures/rofin-recomposed-09.webp",
-  "./assets/images/procedures/rofin-recomposed-10.webp",
-  "./assets/images/procedures/rofin-recomposed-11.webp",
+  "./assets/images/procedures/rofin-clean-01.webp",
+  "./assets/images/procedures/rofin-clean-02.webp",
+  "./assets/images/procedures/rofin-clean-03.webp",
+  "./assets/images/procedures/rofin-clean-04.webp",
+  "./assets/images/procedures/rofin-clean-05.webp",
+  "./assets/images/procedures/rofin-clean-06.webp",
+  "./assets/images/procedures/rofin-clean-07.webp",
+  "./assets/images/procedures/rofin-clean-08.webp",
+  "./assets/images/procedures/rofin-clean-09.webp",
+  "./assets/images/procedures/rofin-clean-10.webp",
+  "./assets/images/procedures/rofin-clean-11.webp",
   "./assets/images/procedures/width-alarm-check-1-panel-1-annotated.webp",
   "./assets/images/procedures/width-alarm-check-1-panel-2-annotated.webp",
   "./assets/images/procedures/laser-alarm-history-1-panel-1-annotated.webp",
