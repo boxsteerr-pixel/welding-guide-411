@@ -4,7 +4,7 @@
     "machineId": "411",
     "machineName": "411激光焊机",
     "manualTitle": "操作工快速处置手册",
-    "manualVersion": "0.4.0",
+    "manualVersion": "0.4.1",
     "contentStatus": "已录入8项异常处理手顺",
     "lastUpdated": "2026-11-05"
   },
@@ -100,67 +100,67 @@
         {
           "title": "激光器显示画面",
           "text": "激光调整中使用原文IP地址192.168.0.200进入。绿色正常、黄色报警、红色故障。 通过“激光调整”按钮设定IP地址192.168.0.200，以观察者（Viewer）身份进入显示画面。绿色表示正常、黄色表示报警、红色表示故障。操作模式登录用户名、密码均为operator。",
-          "image": "./assets/images/procedures/rofin-laser-1-panel-1-annotated.webp",
+          "image": "./assets/images/procedures/rofin-recomposed-01.webp",
           "alt": "激光器显示画面：激光调整中使用原文IP地址192.168.0.200进入。绿色正常、黄色报警、红色故障。"
         },
         {
           "title": "操作模式登录画面",
           "text": "登录操作模式：用户名operator；密码operator。",
-          "image": "./assets/images/procedures/rofin-laser-1-panel-2-annotated.webp",
+          "image": "./assets/images/procedures/rofin-recomposed-02.webp",
           "alt": "操作模式登录画面：登录操作模式：用户名operator；密码operator。"
         },
         {
           "title": "激光器操作模式及按钮",
           "text": "0锁定、M手动、A自动；原文解锁密码1234。画面下方依次为电源、高压、出激光、光闸。 原文解锁密码1234。0为锁定模式，M为手动模式（手动激光打点），A为自动模式。按钮包括电源、高压、出激光、光闸。原文启动流程：电源启动→水试验→丝极启动→待机启动→激光器已启动。",
-          "image": "./assets/images/procedures/rofin-laser-2-panel-1-annotated.webp",
+          "image": "./assets/images/procedures/rofin-recomposed-03.webp",
           "alt": "激光器操作模式及按钮：0锁定、M手动、A自动；原文解锁密码1234。画面下方依次为电源、高压、出激光、光闸。"
         },
         {
           "title": "手动打点控制画面",
           "text": "手动打点按原文总结：功率确认→电源→高压→打点前开光闸→出激光→打点后关光闸→切回自动。原图④标注与总结措辞不一致。 按原页下方“总结”：①修改激光功率等级并确认；②打开激光电源；③出现待机启动，点击高压按钮；④激光打点前打开光闸；⑤出现激光器已启动，点击出激光按钮，打点结束后关闭光闸；⑥将手动模式M切换到自动模式A。原页上方④标注与下方总结措辞不一致，保留原页供核对。",
-          "image": "./assets/images/procedures/rofin-laser-3-panel-1-annotated.webp",
+          "image": "./assets/images/procedures/rofin-recomposed-04.webp",
           "alt": "手动打点控制画面：手动打点按原文总结：功率确认→电源→高压→打点前开光闸→出激光→打点后关光闸→切回自动。原图④标注与总结措辞不一致。"
         },
         {
           "title": "查看数据并点击程序",
           "text": "查看画面常用数据，点击左下方“程序”。原文数值是示例。 点击“程序”→“脉冲”，选择P对应的脉冲程序（55），修改频率、占空比、持续时间等，完成后点击“提交”。原文展示数据：频率1000Hz、占空比100%、功率等级0%、持续时间10ms、脉冲模式P（Fix）；这些为附件展示值。",
-          "image": "./assets/images/procedures/rofin-laser-4-panel-1-annotated.webp",
+          "image": "./assets/images/procedures/rofin-recomposed-05.webp",
           "alt": "查看数据并点击程序：查看画面常用数据，点击左下方“程序”。原文数值是示例。"
         },
         {
           "title": "点击脉冲",
           "text": "点击左下方红圈内“脉冲”。",
-          "image": "./assets/images/procedures/rofin-laser-4-panel-2-annotated.webp",
+          "image": "./assets/images/procedures/rofin-recomposed-06.webp",
           "alt": "点击脉冲：点击左下方红圈内“脉冲”。"
         },
         {
           "title": "选择脉冲程序55",
           "text": "选择P对应的脉冲程序55。",
-          "image": "./assets/images/procedures/rofin-laser-4-panel-3-annotated.webp",
+          "image": "./assets/images/procedures/rofin-recomposed-07.webp",
           "alt": "选择脉冲程序55：选择P对应的脉冲程序55。"
         },
         {
           "title": "修改常用数据并提交",
           "text": "修改频率、占空比、持续时间等，完成后点击“提交”。",
-          "image": "./assets/images/procedures/rofin-laser-4-panel-4-annotated.webp",
+          "image": "./assets/images/procedures/rofin-recomposed-08.webp",
           "alt": "修改常用数据并提交：修改频率、占空比、持续时间等，完成后点击“提交”。"
         },
         {
           "title": "客户端不是主控装置故障",
           "text": "出现“客户端不是主控装置”时，点击左下方“状态”。 出现“客户端不是主控装置”时，点击“状态”按钮，观察主控装置为离线状态，点击“》”按钮，再点击“设定主控装置”，观察主控装置变为在线状态。",
-          "image": "./assets/images/procedures/rofin-laser-5-panel-1-annotated.webp",
+          "image": "./assets/images/procedures/rofin-recomposed-09.webp",
           "alt": "客户端不是主控装置故障：出现“客户端不是主控装置”时，点击左下方“状态”。"
         },
         {
           "title": "查看主控装置离线状态",
           "text": "查看主控装置离线状态，点击右下方“》”。",
-          "image": "./assets/images/procedures/rofin-laser-5-panel-2-annotated.webp",
+          "image": "./assets/images/procedures/rofin-recomposed-10.webp",
           "alt": "查看主控装置离线状态：查看主控装置离线状态，点击右下方“》”。"
         },
         {
           "title": "设定主控装置并查看在线状态",
           "text": "点击“设定主控装置”，确认主控装置为在线状态。",
-          "image": "./assets/images/procedures/rofin-laser-5-panel-3-annotated.webp",
+          "image": "./assets/images/procedures/rofin-recomposed-11.webp",
           "alt": "设定主控装置并查看在线状态：点击“设定主控装置”，确认主控装置为在线状态。"
         }
       ]
