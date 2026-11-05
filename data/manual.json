@@ -4,7 +4,7 @@
     "machineId": "411",
     "machineName": "411激光焊机",
     "manualTitle": "操作工快速处置手册",
-    "manualVersion": "0.4.2",
+    "manualVersion": "0.5.0",
     "contentStatus": "已录入8项异常处理手顺",
     "lastUpdated": "2026-11-05"
   },
@@ -34,50 +34,50 @@
         {
           "title": "边部光栅现场位置",
           "text": "红框为边部光栅位置。接收器清洁上表面；发射器清洁下表面。 边部光栅接收器清洁上表面（带缝处），发射器清洁下表面（带缝处）。边丝易遮挡边部光栅及旁侧两个限位，需定期点检、及时清理；预热、退火加热装置容易放电，两个加热装置区域也要保证无边丝。",
-          "image": "./assets/images/procedures/glass-cleaning-2-panel-1-annotated.webp",
-          "alt": "边部光栅现场位置：红框为边部光栅位置。接收器清洁上表面；发射器清洁下表面。"
+          "image": "./assets/images/procedures/glass-cleaning-mobile-01.webp",
+          "alt": "1：边部光栅位置；接收器清洁上表面，发射器清洁下表面。 2：定期清理边丝，避免遮挡光栅及旁侧限位。"
         },
         {
           "title": "接收器上表面清洁位置",
           "text": "红框：接收器上表面带缝处，需清洁。",
-          "image": "./assets/images/procedures/glass-cleaning-2-panel-2-annotated.webp",
-          "alt": "接收器上表面清洁位置：红框：接收器上表面带缝处，需清洁。"
+          "image": "./assets/images/procedures/glass-cleaning-mobile-02.webp",
+          "alt": "1：接收器上表面带缝处：清洁此部位。"
         },
         {
           "title": "各摄像头现场位置",
           "text": "按原图标注辨认焊缝、熔透和间隙摄像头。 沿WS方向（由右向左）依次为最外侧焊缝摄像头、穿透率摄像头、间隙摄像头。间隙和焊缝摄像头的保护玻璃可直接扣出，取下后进行清洁。",
-          "image": "./assets/images/procedures/glass-cleaning-3-panel-1-annotated.webp",
-          "alt": "各摄像头现场位置：按原图标注辨认焊缝、熔透和间隙摄像头。"
+          "image": "./assets/images/procedures/glass-cleaning-mobile-03.webp",
+          "alt": "1：焊缝摄像头位置。 2：熔透摄像头位置。 3：间隙摄像头位置。"
         },
         {
           "title": "摄像头保护玻璃位置图一",
           "text": "红框为摄像头保护玻璃位置，可取下清洁。",
-          "image": "./assets/images/procedures/glass-cleaning-3-panel-2-annotated.webp",
-          "alt": "摄像头保护玻璃位置图一：红框为摄像头保护玻璃位置，可取下清洁。"
+          "image": "./assets/images/procedures/glass-cleaning-mobile-04.webp",
+          "alt": "1：摄像头保护玻璃位置图一；保护玻璃可取下清洁。"
         },
         {
           "title": "摄像头保护玻璃位置图二",
           "text": "红框为摄像头保护玻璃位置，可取下清洁。",
-          "image": "./assets/images/procedures/glass-cleaning-3-panel-3-annotated.webp",
-          "alt": "摄像头保护玻璃位置图二：红框为摄像头保护玻璃位置，可取下清洁。"
+          "image": "./assets/images/procedures/glass-cleaning-mobile-05.webp",
+          "alt": "1：摄像头保护玻璃位置图二；保护玻璃可取下清洁。"
         },
         {
           "title": "定位光栅发射器位置",
           "text": "原图分别标出1#、2#发射器与反光板。 遇带头、带尾定位不准时，应优先擦拭反光板；反光板一般1周至少擦拭一次。发射器、反光板位置见原图。",
-          "image": "./assets/images/procedures/glass-cleaning-4-panel-1-annotated.webp",
-          "alt": "定位光栅发射器位置：原图分别标出1#、2#发射器与反光板。"
+          "image": "./assets/images/procedures/glass-cleaning-mobile-06.webp",
+          "alt": "1：2#光栅发射器。 2：1#光栅发射器。 3：2#光栅反光板。 4：1#光栅反光板。"
         },
         {
           "title": "定位光栅反光板位置图一",
           "text": "红框：定位光栅反光板，定位不准时优先擦拭。",
-          "image": "./assets/images/procedures/glass-cleaning-4-panel-2-annotated.webp",
-          "alt": "定位光栅反光板位置图一：红框：定位光栅反光板，定位不准时优先擦拭。"
+          "image": "./assets/images/procedures/glass-cleaning-mobile-07.webp",
+          "alt": "1：定位光栅反光板；带头、带尾定位不准时优先擦拭。 2：反光板一般每周至少擦拭一次。"
         },
         {
           "title": "定位光栅反光板位置图二",
           "text": "红框：定位光栅反光板，定位不准时优先擦拭。",
-          "image": "./assets/images/procedures/glass-cleaning-4-panel-3-annotated.webp",
-          "alt": "定位光栅反光板位置图二：红框：定位光栅反光板，定位不准时优先擦拭。"
+          "image": "./assets/images/procedures/glass-cleaning-mobile-08.webp",
+          "alt": "1：另一处定位光栅反光板；按原图位置擦拭。"
         }
       ]
     },
@@ -182,14 +182,14 @@
         {
           "title": "功能选择中的摄像头测宽",
           "text": "功能选择画面中，红框为“摄像头测宽”。 在“功能选择”中找到“摄像头测宽”按钮。出现“实测与机组板宽误差过大，注意检测”报警信息时，对中自动步会停止，此时需点击“板宽确认”，对中自动步才会恢复。若实测宽度数值确实与实际宽度数值存在较大偏差（＞10mm），现场人员需确认好宽度值，将正确数值覆盖错误数值。",
-          "image": "./assets/images/procedures/width-alarm-check-1-panel-1-annotated.webp",
-          "alt": "功能选择中的摄像头测宽：功能选择画面中，红框为“摄像头测宽”。"
+          "image": "./assets/images/procedures/width-alarm-check-mobile-01.webp",
+          "alt": "1：在“功能选择”中找到“摄像头测宽”。"
         },
         {
           "title": "测宽报警及板宽确认",
           "text": "板宽偏差报警时，对中自动步停止；按“板宽确认”后恢复。若实测与实际偏差＞10mm，现场确认正确值后覆盖错误值。",
-          "image": "./assets/images/procedures/width-alarm-check-1-panel-2-annotated.webp",
-          "alt": "测宽报警及板宽确认：板宽偏差报警时，对中自动步停止；按“板宽确认”后恢复。若实测与实际偏差＞10mm，现场确认正确值后覆盖错误值。"
+          "image": "./assets/images/procedures/width-alarm-check-mobile-02.webp",
+          "alt": "1：出现板宽偏差过大的报警，对中自动步会停止。 2：点击“板宽确认”后，对中自动步才会恢复。 3：实测与实际宽度偏差＞10mm时，现场确认正确值后覆盖错误值。"
         }
       ]
     },
@@ -209,32 +209,32 @@
         {
           "title": "焊机HMI激光设备报警",
           "text": "HMI报警信息中出现激光设备报警。 当焊机HMI报警信息中出现激光设备报警，点击“激光调整画面”按钮，选择激光器已设定IP地址192.168.0.200，点击“正常”按钮。",
-          "image": "./assets/images/procedures/laser-alarm-history-1-panel-1-annotated.webp",
-          "alt": "焊机HMI激光设备报警：HMI报警信息中出现激光设备报警。"
+          "image": "./assets/images/procedures/laser-alarm-history-mobile-01.webp",
+          "alt": "1：在HMI报警信息中查看激光设备报警。"
         },
         {
           "title": "选择激光器地址进入激光调整",
           "text": "点击激光调整画面，选择已设定IP地址192.168.0.200，点击“正常”。",
-          "image": "./assets/images/procedures/laser-alarm-history-1-panel-2-annotated.webp",
-          "alt": "选择激光器地址进入激光调整：点击激光调整画面，选择已设定IP地址192.168.0.200，点击“正常”。"
+          "image": "./assets/images/procedures/laser-alarm-history-mobile-02.webp",
+          "alt": "1：激光调整画面：选择已设定IP地址192.168.0.200。 2：点击“正常”进入。"
         },
         {
           "title": "激光调整画面与Int按钮",
           "text": "进入激光调整画面，点击“Int”进入报警信息。 进入激光调整画面后，点击“Int”按钮，进入激光报警信息画面。图四为激光报警实时信息，图五为激光报警历史信息。",
-          "image": "./assets/images/procedures/laser-alarm-history-2-panel-1-annotated.webp",
-          "alt": "激光调整画面与Int按钮：进入激光调整画面，点击“Int”进入报警信息。"
+          "image": "./assets/images/procedures/laser-alarm-history-mobile-03.webp",
+          "alt": "1：在激光调整窗口点击“Int”，进入激光报警信息。"
         },
         {
           "title": "激光报警实时信息",
           "text": "图四：激光报警实时信息。",
-          "image": "./assets/images/procedures/laser-alarm-history-2-panel-2-annotated.webp",
-          "alt": "激光报警实时信息：图四：激光报警实时信息。"
+          "image": "./assets/images/procedures/laser-alarm-history-mobile-04.webp",
+          "alt": "1：此画面为激光报警实时信息。"
         },
         {
           "title": "激光报警历史信息",
           "text": "图五：激光报警历史信息。",
-          "image": "./assets/images/procedures/laser-alarm-history-2-panel-3-annotated.webp",
-          "alt": "激光报警历史信息：图五：激光报警历史信息。"
+          "image": "./assets/images/procedures/laser-alarm-history-mobile-05.webp",
+          "alt": "1：此画面为激光报警历史信息。"
         }
       ]
     },
@@ -257,38 +257,38 @@
         {
           "title": "打开阈值参数",
           "text": "依原图编号：配置→阈值管理→阈值参数。 原文以熔透率上阈值为例：通过“配置”→“阈值管理”→“阈值参数”进入参数表，按原图标注选择记录及参数，修改后点击“保存”。具体选项、勾选位置见原页；截图内数值为示例。",
-          "image": "./assets/images/procedures/qcds-sensor-parameters-1-panel-1-annotated.webp",
-          "alt": "打开阈值参数：依原图编号：配置→阈值管理→阈值参数。"
+          "image": "./assets/images/procedures/qcds-sensor-parameters-mobile-01.webp",
+          "alt": "1：点击“配置”。 2：选择“阈值管理”。 3：选择“阈值参数”。"
         },
         {
           "title": "选择参数记录",
           "text": "按材料和板厚等条件选择参数记录，再按原图进入部分设置。",
-          "image": "./assets/images/procedures/qcds-sensor-parameters-1-panel-2-annotated.webp",
-          "alt": "选择参数记录：按材料和板厚等条件选择参数记录，再按原图进入部分设置。"
+          "image": "./assets/images/procedures/qcds-sensor-parameters-mobile-02.webp",
+          "alt": "1：按材料、板厚等条件选择参数记录。 2：进入“部分设置”。"
         },
         {
           "title": "修改熔透率阈值并保存",
           "text": "勾选需要修改的熔透率参数，修改上阈值后保存；图中数值是示例。",
-          "image": "./assets/images/procedures/qcds-sensor-parameters-1-panel-3-annotated.webp",
-          "alt": "修改熔透率阈值并保存：勾选需要修改的熔透率参数，修改上阈值后保存；图中数值是示例。"
+          "image": "./assets/images/procedures/qcds-sensor-parameters-mobile-03.webp",
+          "alt": "1：勾选需要修改的熔透率参数。 2：修改熔透率上阈值；图中数值是示例。 3：完成后点击“保存”。"
         },
         {
           "title": "图像比例及宽度高度参数",
           "text": "Gain（Raw）减小则图像比例变大，增大则变小；限定值16、32、64、128等。水平和垂直参数数值需相同。 Gain（Raw）减小则图像比例变大，增大则图像比例变小，原文限定数值为16、32、64、128等。Width、Height分别为宽度、高度。水平、垂直参数两个数值要相同；原文说明“1＝放大4倍的2”。曝光相关参数增加则提高光斑亮度，减小则降低光斑亮度，参数位置见原图。",
-          "image": "./assets/images/procedures/qcds-sensor-parameters-2-panel-1-annotated.webp",
-          "alt": "图像比例及宽度高度参数：Gain（Raw）减小则图像比例变大，增大则变小；限定值16、32、64、128等。水平和垂直参数数值需相同。"
+          "image": "./assets/images/procedures/qcds-sensor-parameters-mobile-04.webp",
+          "alt": "1：Gain（Raw）：限定值16、32、64、128等；减小图像比例变大，增大则变小。 2：Width、Height分别为宽度、高度。 3：水平与垂直Binning参数数值要相同；原文说明1相较2放大4倍。"
         },
         {
           "title": "光斑亮度参数",
           "text": "Exposure Time增加提高光斑亮度，减小降低光斑亮度。",
-          "image": "./assets/images/procedures/qcds-sensor-parameters-2-panel-2-annotated.webp",
-          "alt": "光斑亮度参数：Exposure Time增加提高光斑亮度，减小降低光斑亮度。"
+          "image": "./assets/images/procedures/qcds-sensor-parameters-mobile-05.webp",
+          "alt": "1：Exposure Time增加则提高光斑亮度，减小则降低光斑亮度。"
         },
         {
           "title": "熔透率曲线及飞溅显示",
           "text": "原图所标曲线参数增加则曲线比例变小；飞溅淡化会降低光斑和对接间隙线清晰度。 原图所标曲线参数增加则熔透率曲线比例变小，减小则曲线比例变大。打开原图所标选项可淡化光斑周围飞溅，但会降低光斑和对接间隙线清晰度。",
-          "image": "./assets/images/procedures/qcds-sensor-parameters-3-panel-1-annotated.webp",
-          "alt": "熔透率曲线及飞溅显示：原图所标曲线参数增加则曲线比例变小；飞溅淡化会降低光斑和对接间隙线清晰度。"
+          "image": "./assets/images/procedures/qcds-sensor-parameters-mobile-06.webp",
+          "alt": "1：滤波阈值增加则熔透率曲线比例变小，减小则曲线比例变大。 2：飞溅淡化选项：开启后会降低光斑及对接间隙线清晰度。"
         }
       ]
     },
@@ -312,38 +312,38 @@
         {
           "title": "进入调试员权限",
           "text": "依原图编号：操作→运行权限→调试员。 ①点击“操作”→“运行权限”→“调试员”，原文密码9999；②点击“配置”→“系统配置”；③按原图选择需要修改的间隙、焊缝、熔透或外形传感器，点击“保存”；④保存后出现提示窗口，需要重新启动ProV3；⑤点击“文件”→“退出”；⑥从桌面重新打开ProV3，进入QCDS界面。",
-          "image": "./assets/images/procedures/qcds-camera-change-1-panel-1-annotated.webp",
-          "alt": "进入调试员权限：依原图编号：操作→运行权限→调试员。"
+          "image": "./assets/images/procedures/qcds-camera-change-mobile-01.webp",
+          "alt": "1：操作→运行权限→调试员。 2：运行权限菜单。 3：选择“调试员”。"
         },
         {
           "title": "输入调试员密码",
           "text": "输入原文调试员密码9999，点击确定。",
-          "image": "./assets/images/procedures/qcds-camera-change-1-panel-2-annotated.webp",
-          "alt": "输入调试员密码：输入原文调试员密码9999，点击确定。"
+          "image": "./assets/images/procedures/qcds-camera-change-mobile-02.webp",
+          "alt": "1：输入原文调试员密码9999。 2：点击“确定”。"
         },
         {
           "title": "打开系统配置",
           "text": "依原图编号：配置→系统配置。",
-          "image": "./assets/images/procedures/qcds-camera-change-1-panel-3-annotated.webp",
-          "alt": "打开系统配置：依原图编号：配置→系统配置。"
+          "image": "./assets/images/procedures/qcds-camera-change-mobile-03.webp",
+          "alt": "1：点击“配置”。 2：点击“系统配置”。"
         },
         {
           "title": "选择传感器并保存",
           "text": "在系统配置中选择目标传感器，点击保存。",
-          "image": "./assets/images/procedures/qcds-camera-change-1-panel-4-annotated.webp",
-          "alt": "选择传感器并保存：在系统配置中选择目标传感器，点击保存。"
+          "image": "./assets/images/procedures/qcds-camera-change-mobile-04.webp",
+          "alt": "1：间隙、焊缝传感器选择项。 2：熔透、外形传感器选择项。 3：选择目标传感器后点击“保存”。"
         },
         {
           "title": "确认重启提示",
           "text": "保存后确认提示；配置生效需重新启动ProV3。",
-          "image": "./assets/images/procedures/qcds-camera-change-1-panel-5-annotated.webp",
-          "alt": "确认重启提示：保存后确认提示；配置生效需重新启动ProV3。"
+          "image": "./assets/images/procedures/qcds-camera-change-mobile-05.webp",
+          "alt": "1：保存系统配置后会出现重启提示。 2：确认提示，需重新启动ProV3才能使配置生效。"
         },
         {
           "title": "退出ProV3并重新打开",
           "text": "点击文件→退出，再从桌面打开ProV3进入QCDS。",
-          "image": "./assets/images/procedures/qcds-camera-change-1-panel-6-annotated.webp",
-          "alt": "退出ProV3并重新打开：点击文件→退出，再从桌面打开ProV3进入QCDS。"
+          "image": "./assets/images/procedures/qcds-camera-change-mobile-06.webp",
+          "alt": "1：点击“文件”。 2：选择“退出”。 3：退出后从桌面重新打开ProV3，进入QCDS。"
         }
       ]
     },
@@ -368,44 +368,44 @@
         {
           "title": "保存项目与下载方向",
           "text": "打开博图项目。原图区分保存、本地→PLC、PLC→本地。 打开项目进入博图程序。修改FC、FB、DB块后，状态图标会显示在线与离线不同。点击“保存项目”，再点击“下载”，在弹出的界面选择“确定”，查看需要同步的程序块。原图区分“本地→PLC”和“PLC→本地”两个方向。",
-          "image": "./assets/images/procedures/tia-program-download-1-panel-1-annotated.webp",
-          "alt": "保存项目与下载方向：打开博图项目。原图区分保存、本地→PLC、PLC→本地。"
+          "image": "./assets/images/procedures/tia-program-download-mobile-01.webp",
+          "alt": "1：打开项目后，“保存项目”用于保存修改。 2：下载方向：本地→PLC。 3：上载方向：PLC→本地。"
         },
         {
           "title": "检查程序块在线离线状态",
           "text": "修改FC、FB、DB块后，图标显示在线与离线不同。",
-          "image": "./assets/images/procedures/tia-program-download-1-panel-2-annotated.webp",
-          "alt": "检查程序块在线离线状态：修改FC、FB、DB块后，图标显示在线与离线不同。"
+          "image": "./assets/images/procedures/tia-program-download-mobile-02.webp",
+          "alt": "1：FC、FB、DB块修改后，图标显示在线与离线不同。"
         },
         {
           "title": "下载后确认同步提示",
           "text": "点击保存项目、下载；弹出同步提示后点击“确定”。",
-          "image": "./assets/images/procedures/tia-program-download-1-panel-3-annotated.webp",
-          "alt": "下载后确认同步提示：点击保存项目、下载；弹出同步提示后点击“确定”。"
+          "image": "./assets/images/procedures/tia-program-download-mobile-03.webp",
+          "alt": "1：先保存项目，再下载。出现此提示后点击“确定”查看需同步的程序块。"
         },
         {
           "title": "同步程序块并完成",
           "text": "选择同步，传输完成后一切正常时点击“完成”。 选择同步，待传输完成出现总结窗口；一切正常时点击“完成”。程序块状态按原图恢复后，在左上角“项目（P）”中选择“归档（H）”，查看归档目标路径。",
-          "image": "./assets/images/procedures/tia-program-download-2-panel-1-annotated.webp",
-          "alt": "同步程序块并完成：选择同步，传输完成后一切正常时点击“完成”。"
+          "image": "./assets/images/procedures/tia-program-download-mobile-04.webp",
+          "alt": "1：选择“同步”，等待传输完成；正常时在总结窗口点击“完成”。"
         },
         {
           "title": "选择项目归档",
           "text": "点击“项目（P）”→“归档（H）”。",
-          "image": "./assets/images/procedures/tia-program-download-2-panel-2-annotated.webp",
-          "alt": "选择项目归档：点击“项目（P）”→“归档（H）”。"
+          "image": "./assets/images/procedures/tia-program-download-mobile-05.webp",
+          "alt": "1：点击左上角“项目（P）”。 2：选择“归档（H）”。"
         },
         {
           "title": "查看归档目标路径",
-          "text": "点击归档后查看目标路径。附件导出页底部画面不完整，请以现场界面为准。",
-          "image": "./assets/images/procedures/tia-program-download-2-panel-3-annotated.webp",
-          "alt": "查看归档目标路径：点击归档后查看目标路径。附件导出页底部画面不完整，请以现场界面为准。"
+          "text": "查看归档目标路径并按原文进行归档；此处已恢复完整原图。",
+          "image": "./assets/images/procedures/tia-program-download-mobile-06.webp",
+          "alt": "1：查看并确认归档目标路径。 2：按原文执行归档操作。"
         },
         {
           "title": "在目标路径查找归档文件",
           "text": "在目标路径磁盘中找到归档文件夹。 在目标路径的磁盘中找到归档文件夹，目录示例及标注见原页。",
-          "image": "./assets/images/procedures/tia-program-download-3-panel-1-annotated.webp",
-          "alt": "在目标路径查找归档文件：在目标路径磁盘中找到归档文件夹。"
+          "image": "./assets/images/procedures/tia-program-download-mobile-07.webp",
+          "alt": "1：在目标路径磁盘中找到归档文件夹。 2：原图展示归档文件列表。"
         }
       ]
     },
@@ -426,15 +426,15 @@
       "steps": [
         {
           "title": "导向轮高度测量布置",
-          "text": "原文展示导向轮高度的测量布置。 按照原图查看入、出口导向轮高度测量和量具布置。附件未给出小车具体位置、目标高度、允许偏差或完整调整步骤，本条保留原图内容。",
-          "image": "./assets/images/procedures/guide-wheel-height-1-panel-1-annotated.webp",
-          "alt": "导向轮高度测量布置：原文展示导向轮高度的测量布置。"
+          "text": "原文展示导向轮高度的测量布置。 按照原图查看入、出口导向轮高度测量和量具布置。附件未给出小车具体位置、目标高度、允许偏差或完整调整步骤，",
+          "image": "./assets/images/procedures/guide-wheel-height-mobile-01.webp",
+          "alt": "1：原图为入、出口导向轮高度测量布置。"
         },
         {
           "title": "导向轮测量表安装位置",
           "text": "原文展示导向轮与测量表布置；未给出目标高度或完整调整步骤。",
-          "image": "./assets/images/procedures/guide-wheel-height-1-panel-2-annotated.webp",
-          "alt": "导向轮测量表安装位置：原文展示导向轮与测量表布置；未给出目标高度或完整调整步骤。"
+          "image": "./assets/images/procedures/guide-wheel-height-mobile-02.webp",
+          "alt": "1：原图为测量表及导向轮布置。 2：原附件未给出小车具体位置、目标高度、允许偏差或完整调整步骤。"
         }
       ]
     }
