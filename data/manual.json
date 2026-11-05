@@ -4,7 +4,7 @@
     "machineId": "411",
     "machineName": "411激光焊机",
     "manualTitle": "操作工快速处置手册",
-    "manualVersion": "0.2.0",
+    "manualVersion": "0.3.0",
     "contentStatus": "已录入8项异常处理手顺",
     "lastUpdated": "2026-11-05"
   },
@@ -32,22 +32,52 @@
       ],
       "steps": [
         {
-          "title": "边部光栅清洁确认",
+          "title": "边部光栅现场位置",
           "text": "边部光栅接收器清洁上表面（带缝处），发射器清洁下表面（带缝处）。边丝易遮挡边部光栅及旁侧两个限位，需定期点检、及时清理；预热、退火加热装置容易放电，两个加热装置区域也要保证无边丝。",
-          "image": "./assets/images/procedures/glass-cleaning-2.webp",
-          "alt": "边部光栅清洁确认 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/glass-cleaning-2-panel-1.webp",
+          "alt": "边部光栅现场位置，源手顺截图"
         },
         {
-          "title": "摄像头位置及保护玻璃清洁",
+          "title": "接收器上表面清洁位置",
+          "text": "边部光栅清洁确认：接收器上表面清洁位置。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/glass-cleaning-2-panel-2.webp",
+          "alt": "接收器上表面清洁位置，源手顺截图"
+        },
+        {
+          "title": "各摄像头现场位置",
           "text": "沿WS方向（由右向左）依次为最外侧焊缝摄像头、穿透率摄像头、间隙摄像头。间隙和焊缝摄像头的保护玻璃可直接扣出，取下后进行清洁。",
-          "image": "./assets/images/procedures/glass-cleaning-3.webp",
-          "alt": "摄像头位置及保护玻璃清洁 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/glass-cleaning-3-panel-1.webp",
+          "alt": "各摄像头现场位置，源手顺截图"
         },
         {
-          "title": "1#、2#定位光栅反光板清洁",
+          "title": "摄像头保护玻璃位置图一",
+          "text": "摄像头位置及保护玻璃清洁：摄像头保护玻璃位置图一。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/glass-cleaning-3-panel-2.webp",
+          "alt": "摄像头保护玻璃位置图一，源手顺截图"
+        },
+        {
+          "title": "摄像头保护玻璃位置图二",
+          "text": "摄像头位置及保护玻璃清洁：摄像头保护玻璃位置图二。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/glass-cleaning-3-panel-3.webp",
+          "alt": "摄像头保护玻璃位置图二，源手顺截图"
+        },
+        {
+          "title": "定位光栅发射器位置",
           "text": "遇带头、带尾定位不准时，应优先擦拭反光板；反光板一般1周至少擦拭一次。发射器、反光板位置见原图。",
-          "image": "./assets/images/procedures/glass-cleaning-4.webp",
-          "alt": "1#、2#定位光栅反光板清洁 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/glass-cleaning-4-panel-1.webp",
+          "alt": "定位光栅发射器位置，源手顺截图"
+        },
+        {
+          "title": "定位光栅反光板位置图一",
+          "text": "1#、2#定位光栅反光板清洁：定位光栅反光板位置图一。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/glass-cleaning-4-panel-2.webp",
+          "alt": "定位光栅反光板位置图一，源手顺截图"
+        },
+        {
+          "title": "定位光栅反光板位置图二",
+          "text": "1#、2#定位光栅反光板清洁：定位光栅反光板位置图二。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/glass-cleaning-4-panel-3.webp",
+          "alt": "定位光栅反光板位置图二，源手顺截图"
         }
       ]
     },
@@ -68,34 +98,70 @@
       ],
       "steps": [
         {
-          "title": "进入激光器显示及登录画面",
+          "title": "激光器显示画面",
           "text": "通过“激光调整”按钮设定IP地址192.168.0.200，以观察者（Viewer）身份进入显示画面。绿色表示正常、黄色表示报警、红色表示故障。操作模式登录用户名、密码均为operator。",
-          "image": "./assets/images/procedures/rofin-laser-1.webp",
-          "alt": "进入激光器显示及登录画面 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/rofin-laser-1-panel-1.webp",
+          "alt": "激光器显示画面，源手顺截图"
         },
         {
-          "title": "操作模式和启动流程",
+          "title": "操作模式登录画面",
+          "text": "进入激光器显示及登录画面：操作模式登录画面。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/rofin-laser-1-panel-2.webp",
+          "alt": "操作模式登录画面，源手顺截图"
+        },
+        {
+          "title": "激光器操作模式及按钮",
           "text": "原文解锁密码1234。0为锁定模式，M为手动模式（手动激光打点），A为自动模式。按钮包括电源、高压、出激光、光闸。原文启动流程：电源启动→水试验→丝极启动→待机启动→激光器已启动。",
-          "image": "./assets/images/procedures/rofin-laser-2.webp",
-          "alt": "操作模式和启动流程 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/rofin-laser-2-panel-1.webp",
+          "alt": "激光器操作模式及按钮，源手顺截图"
         },
         {
-          "title": "手动激光打点",
+          "title": "手动打点控制画面",
           "text": "按原页下方“总结”：①修改激光功率等级并确认；②打开激光电源；③出现待机启动，点击高压按钮；④激光打点前打开光闸；⑤出现激光器已启动，点击出激光按钮，打点结束后关闭光闸；⑥将手动模式M切换到自动模式A。原页上方④标注与下方总结措辞不一致，保留原页供核对。",
-          "image": "./assets/images/procedures/rofin-laser-3.webp",
-          "alt": "手动激光打点 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/rofin-laser-3-panel-1.webp",
+          "alt": "手动打点控制画面，源手顺截图"
         },
         {
-          "title": "修改激光打点常用数据",
+          "title": "查看数据并点击程序",
           "text": "点击“程序”→“脉冲”，选择P对应的脉冲程序（55），修改频率、占空比、持续时间等，完成后点击“提交”。原文展示数据：频率1000Hz、占空比100%、功率等级0%、持续时间10ms、脉冲模式P（Fix）；这些为附件展示值。",
-          "image": "./assets/images/procedures/rofin-laser-4.webp",
-          "alt": "修改激光打点常用数据 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/rofin-laser-4-panel-1.webp",
+          "alt": "查看数据并点击程序，源手顺截图"
         },
         {
-          "title": "解除激光器主控装置故障",
+          "title": "点击脉冲",
+          "text": "修改激光打点常用数据：点击脉冲。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/rofin-laser-4-panel-2.webp",
+          "alt": "点击脉冲，源手顺截图"
+        },
+        {
+          "title": "选择脉冲程序55",
+          "text": "修改激光打点常用数据：选择脉冲程序55。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/rofin-laser-4-panel-3.webp",
+          "alt": "选择脉冲程序55，源手顺截图"
+        },
+        {
+          "title": "修改常用数据并提交",
+          "text": "修改激光打点常用数据：修改常用数据并提交。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/rofin-laser-4-panel-4.webp",
+          "alt": "修改常用数据并提交，源手顺截图"
+        },
+        {
+          "title": "客户端不是主控装置故障",
           "text": "出现“客户端不是主控装置”时，点击“状态”按钮，观察主控装置为离线状态，点击“》”按钮，再点击“设定主控装置”，观察主控装置变为在线状态。",
-          "image": "./assets/images/procedures/rofin-laser-5.webp",
-          "alt": "解除激光器主控装置故障 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/rofin-laser-5-panel-1.webp",
+          "alt": "客户端不是主控装置故障，源手顺截图"
+        },
+        {
+          "title": "查看主控装置离线状态",
+          "text": "解除激光器主控装置故障：查看主控装置离线状态。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/rofin-laser-5-panel-2.webp",
+          "alt": "查看主控装置离线状态，源手顺截图"
+        },
+        {
+          "title": "设定主控装置并查看在线状态",
+          "text": "解除激光器主控装置故障：设定主控装置并查看在线状态。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/rofin-laser-5-panel-3.webp",
+          "alt": "设定主控装置并查看在线状态，源手顺截图"
         }
       ]
     },
@@ -114,10 +180,16 @@
       ],
       "steps": [
         {
-          "title": "测宽入口与报警确认",
+          "title": "功能选择中的摄像头测宽",
           "text": "在“功能选择”中找到“摄像头测宽”按钮。出现“实测与机组板宽误差过大，注意检测”报警信息时，对中自动步会停止，此时需点击“板宽确认”，对中自动步才会恢复。若实测宽度数值确实与实际宽度数值存在较大偏差（＞10mm），现场人员需确认好宽度值，将正确数值覆盖错误数值。",
-          "image": "./assets/images/procedures/width-alarm-check-1.webp",
-          "alt": "测宽入口与报警确认 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/width-alarm-check-1-panel-1.webp",
+          "alt": "功能选择中的摄像头测宽，源手顺截图"
+        },
+        {
+          "title": "测宽报警及板宽确认",
+          "text": "测宽入口与报警确认：测宽报警及板宽确认。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/width-alarm-check-1-panel-2.webp",
+          "alt": "测宽报警及板宽确认，源手顺截图"
         }
       ]
     },
@@ -135,16 +207,34 @@
       ],
       "steps": [
         {
-          "title": "从HMI进入激光调整",
+          "title": "焊机HMI激光设备报警",
           "text": "当焊机HMI报警信息中出现激光设备报警，点击“激光调整画面”按钮，选择激光器已设定IP地址192.168.0.200，点击“正常”按钮。",
-          "image": "./assets/images/procedures/laser-alarm-history-1.webp",
-          "alt": "从HMI进入激光调整 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/laser-alarm-history-1-panel-1.webp",
+          "alt": "焊机HMI激光设备报警，源手顺截图"
         },
         {
-          "title": "查看实时报警和历史报警",
+          "title": "选择激光器地址进入激光调整",
+          "text": "从HMI进入激光调整：选择激光器地址进入激光调整。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/laser-alarm-history-1-panel-2.webp",
+          "alt": "选择激光器地址进入激光调整，源手顺截图"
+        },
+        {
+          "title": "激光调整画面与Int按钮",
           "text": "进入激光调整画面后，点击“Int”按钮，进入激光报警信息画面。图四为激光报警实时信息，图五为激光报警历史信息。",
-          "image": "./assets/images/procedures/laser-alarm-history-2.webp",
-          "alt": "查看实时报警和历史报警 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/laser-alarm-history-2-panel-1.webp",
+          "alt": "激光调整画面与Int按钮，源手顺截图"
+        },
+        {
+          "title": "激光报警实时信息",
+          "text": "查看实时报警和历史报警：激光报警实时信息。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/laser-alarm-history-2-panel-2.webp",
+          "alt": "激光报警实时信息，源手顺截图"
+        },
+        {
+          "title": "激光报警历史信息",
+          "text": "查看实时报警和历史报警：激光报警历史信息。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/laser-alarm-history-2-panel-3.webp",
+          "alt": "激光报警历史信息，源手顺截图"
         }
       ]
     },
@@ -165,22 +255,40 @@
       ],
       "steps": [
         {
-          "title": "修改阈值参数",
+          "title": "打开阈值参数",
           "text": "原文以熔透率上阈值为例：通过“配置”→“阈值管理”→“阈值参数”进入参数表，按原图标注选择记录及参数，修改后点击“保存”。具体选项、勾选位置见原页；截图内数值为示例。",
-          "image": "./assets/images/procedures/qcds-sensor-parameters-1.webp",
-          "alt": "修改阈值参数 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/qcds-sensor-parameters-1-panel-1.webp",
+          "alt": "打开阈值参数，源手顺截图"
         },
         {
-          "title": "修改熔透传感器图像配置",
+          "title": "选择参数记录",
+          "text": "修改阈值参数：选择参数记录。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/qcds-sensor-parameters-1-panel-2.webp",
+          "alt": "选择参数记录，源手顺截图"
+        },
+        {
+          "title": "修改熔透率阈值并保存",
+          "text": "修改阈值参数：修改熔透率阈值并保存。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/qcds-sensor-parameters-1-panel-3.webp",
+          "alt": "修改熔透率阈值并保存，源手顺截图"
+        },
+        {
+          "title": "图像比例及宽度高度参数",
           "text": "Gain（Raw）减小则图像比例变大，增大则图像比例变小，原文限定数值为16、32、64、128等。Width、Height分别为宽度、高度。水平、垂直参数两个数值要相同；原文说明“1＝放大4倍的2”。曝光相关参数增加则提高光斑亮度，减小则降低光斑亮度，参数位置见原图。",
-          "image": "./assets/images/procedures/qcds-sensor-parameters-2.webp",
-          "alt": "修改熔透传感器图像配置 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/qcds-sensor-parameters-2-panel-1.webp",
+          "alt": "图像比例及宽度高度参数，源手顺截图"
         },
         {
-          "title": "调整熔透率曲线及飞溅显示",
+          "title": "光斑亮度参数",
+          "text": "修改熔透传感器图像配置：光斑亮度参数。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/qcds-sensor-parameters-2-panel-2.webp",
+          "alt": "光斑亮度参数，源手顺截图"
+        },
+        {
+          "title": "熔透率曲线及飞溅显示",
           "text": "原图所标曲线参数增加则熔透率曲线比例变小，减小则曲线比例变大。打开原图所标选项可淡化光斑周围飞溅，但会降低光斑和对接间隙线清晰度。",
-          "image": "./assets/images/procedures/qcds-sensor-parameters-3.webp",
-          "alt": "调整熔透率曲线及飞溅显示 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/qcds-sensor-parameters-3-panel-1.webp",
+          "alt": "熔透率曲线及飞溅显示，源手顺截图"
         }
       ]
     },
@@ -202,10 +310,40 @@
       ],
       "steps": [
         {
-          "title": "修改传感器配置并重启ProV3",
+          "title": "进入调试员权限",
           "text": "①点击“操作”→“运行权限”→“调试员”，原文密码9999；②点击“配置”→“系统配置”；③按原图选择需要修改的间隙、焊缝、熔透或外形传感器，点击“保存”；④保存后出现提示窗口，需要重新启动ProV3；⑤点击“文件”→“退出”；⑥从桌面重新打开ProV3，进入QCDS界面。",
-          "image": "./assets/images/procedures/qcds-camera-change-1.webp",
-          "alt": "修改传感器配置并重启ProV3 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/qcds-camera-change-1-panel-1.webp",
+          "alt": "进入调试员权限，源手顺截图"
+        },
+        {
+          "title": "输入调试员密码",
+          "text": "修改传感器配置并重启ProV3：输入调试员密码。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/qcds-camera-change-1-panel-2.webp",
+          "alt": "输入调试员密码，源手顺截图"
+        },
+        {
+          "title": "打开系统配置",
+          "text": "修改传感器配置并重启ProV3：打开系统配置。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/qcds-camera-change-1-panel-3.webp",
+          "alt": "打开系统配置，源手顺截图"
+        },
+        {
+          "title": "选择传感器并保存",
+          "text": "修改传感器配置并重启ProV3：选择传感器并保存。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/qcds-camera-change-1-panel-4.webp",
+          "alt": "选择传感器并保存，源手顺截图"
+        },
+        {
+          "title": "确认重启提示",
+          "text": "修改传感器配置并重启ProV3：确认重启提示。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/qcds-camera-change-1-panel-5.webp",
+          "alt": "确认重启提示，源手顺截图"
+        },
+        {
+          "title": "退出ProV3并重新打开",
+          "text": "修改传感器配置并重启ProV3：退出ProV3并重新打开。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/qcds-camera-change-1-panel-6.webp",
+          "alt": "退出ProV3并重新打开，源手顺截图"
         }
       ]
     },
@@ -228,22 +366,46 @@
       ],
       "steps": [
         {
-          "title": "保存项目并下载程序块",
+          "title": "保存项目与下载方向",
           "text": "打开项目进入博图程序。修改FC、FB、DB块后，状态图标会显示在线与离线不同。点击“保存项目”，再点击“下载”，在弹出的界面选择“确定”，查看需要同步的程序块。原图区分“本地→PLC”和“PLC→本地”两个方向。",
-          "image": "./assets/images/procedures/tia-program-download-1.webp",
-          "alt": "保存项目并下载程序块 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/tia-program-download-1-panel-1.webp",
+          "alt": "保存项目与下载方向，源手顺截图"
         },
         {
-          "title": "完成同步并归档",
+          "title": "检查程序块在线离线状态",
+          "text": "保存项目并下载程序块：检查程序块在线离线状态。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/tia-program-download-1-panel-2.webp",
+          "alt": "检查程序块在线离线状态，源手顺截图"
+        },
+        {
+          "title": "下载后确认同步提示",
+          "text": "保存项目并下载程序块：下载后确认同步提示。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/tia-program-download-1-panel-3.webp",
+          "alt": "下载后确认同步提示，源手顺截图"
+        },
+        {
+          "title": "同步程序块并完成",
           "text": "选择同步，待传输完成出现总结窗口；一切正常时点击“完成”。程序块状态按原图恢复后，在左上角“项目（P）”中选择“归档（H）”，查看归档目标路径。",
-          "image": "./assets/images/procedures/tia-program-download-2.webp",
-          "alt": "完成同步并归档 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/tia-program-download-2-panel-1.webp",
+          "alt": "同步程序块并完成，源手顺截图"
         },
         {
-          "title": "查找归档文件",
+          "title": "选择项目归档",
+          "text": "完成同步并归档：选择项目归档。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/tia-program-download-2-panel-2.webp",
+          "alt": "选择项目归档，源手顺截图"
+        },
+        {
+          "title": "查看归档目标路径",
+          "text": "完成同步并归档：查看归档目标路径。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/tia-program-download-2-panel-3.webp",
+          "alt": "查看归档目标路径，源手顺截图"
+        },
+        {
+          "title": "在目标路径查找归档文件",
           "text": "在目标路径的磁盘中找到归档文件夹，目录示例及标注见原页。",
-          "image": "./assets/images/procedures/tia-program-download-3.webp",
-          "alt": "查找归档文件 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/tia-program-download-3-panel-1.webp",
+          "alt": "在目标路径查找归档文件，源手顺截图"
         }
       ]
     },
@@ -263,10 +425,16 @@
       ],
       "steps": [
         {
-          "title": "测量入、出口导向轮高度",
+          "title": "导向轮高度测量布置",
           "text": "按照原图查看入、出口导向轮高度测量和量具布置。附件未给出小车具体位置、目标高度、允许偏差或完整调整步骤，本条保留原图内容。",
-          "image": "./assets/images/procedures/guide-wheel-height-1.webp",
-          "alt": "测量入、出口导向轮高度 · 附件原页及现场标注"
+          "image": "./assets/images/procedures/guide-wheel-height-1-panel-1.webp",
+          "alt": "导向轮高度测量布置，源手顺截图"
+        },
+        {
+          "title": "导向轮测量表安装位置",
+          "text": "测量入、出口导向轮高度：导向轮测量表安装位置。操作说明见本组第一张图。",
+          "image": "./assets/images/procedures/guide-wheel-height-1-panel-2.webp",
+          "alt": "导向轮测量表安装位置，源手顺截图"
         }
       ]
     }

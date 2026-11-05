@@ -14,14 +14,14 @@ const manifest = JSON.parse(manifestText);
 
 assert.equal(manual.machine.machineId, "411");
 assert.equal(manual.machine.machineName, "411激光焊机");
-assert.equal(manual.machine.manualVersion, "0.2.0");
+assert.equal(manual.machine.manualVersion, "0.3.0");
 assert.equal(manual.faults.length, 8);
 assert.equal(new Set(manual.faults.map(item => item.id)).size, 8);
 assert.deepEqual(manual.maintenance, []);
 assert.deepEqual(manual.safety, []);
 assert.equal(manifest.start_url, "./");
 assert.equal(manifest.scope, "./");
-assert.match(sw, /const CACHE_NAME = "welding-guide-411-v12"/);
+assert.match(sw, /const CACHE_NAME = "welding-guide-411-v13"/);
 assert.match(html, /id="currentTime"/);
 assert.match(html, /system-time\.js\?v=1/);
 assert.match(sw, /system-time\.js\?v=1/);
@@ -39,10 +39,11 @@ const images = manual.faults.flatMap(item => {
   for (const step of item.steps) assert.ok(step.text && step.alt && step.image, item.id);
   return item.steps.map(step => step.image);
 });
-assert.equal(images.length, 19);
+assert.equal(images.length, 47);
+assert.equal(new Set(images).size, images.length);
 for (const image of images) {
   assert.match(image, /^\.\/assets\/images\/procedures\/[a-z0-9-]+\.webp$/);
-  assert.ok((await stat(path.join(root, image))).size > 10000, image);
+  assert.ok((await stat(path.join(root, image))).size > 1000, image);
 }
 const listeners = new Map(), cacheStore = new Map();
 const cache = {addAll: async urls => {for (const url of urls) cacheStore.set(url, {ok:true,url});},match:async request=>cacheStore.get(typeof request==='string'?request:request.url)};

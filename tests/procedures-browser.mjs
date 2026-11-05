@@ -28,7 +28,7 @@ try {
     for(const img of await entry.locator('img').all()) {
       await img.scrollIntoViewIfNeeded();
       await img.evaluate(img=>img.decode());
-      assert.ok(await img.evaluate(img=>img.naturalWidth>=1400));
+      assert.ok(await img.evaluate(img=>img.naturalWidth>=250));
     }
     assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
     if(i===0)await page.screenshot({path:path.join(root,'review/source-import/mobile-cleaning.png'),fullPage:true});
@@ -50,14 +50,14 @@ try {
   await page.locator('#search-input').press('Enter');
   await page.waitForFunction(()=>document.querySelectorAll('#fault-list details').length===8);
   await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
-  await page.waitForFunction(async()=>{const keys=await caches.keys();return keys.includes('welding-guide-411-v12');});
-  const cached=await page.evaluate(async()=>{const c=await caches.open('welding-guide-411-v12');return (await c.keys()).filter(r=>r.url.includes('/procedures/')).length;});
-  assert.equal(cached,19);
+  await page.waitForFunction(async()=>{const keys=await caches.keys();return keys.includes('welding-guide-411-v13');});
+  const cached=await page.evaluate(async()=>{const c=await caches.open('welding-guide-411-v13');return (await c.keys()).filter(r=>r.url.includes('/procedures/')).length;});
+  assert.equal(cached,47);
   await context.setOffline(true);
   await page.reload();
   await page.waitForFunction(()=>document.querySelectorAll('#fault-list details').length===8);
   await entries.last().locator('summary').click();
-  await entries.last().locator('img').evaluate(img=>img.decode());
+  await entries.last().locator('img').last().evaluate(img=>img.decode());
   assert.deepEqual(errors,[]);
-  console.log(`PASS ${url}: 8 entries, 19 images, mobile layout, search, image viewer/position, offline reload`);
+  console.log(`PASS ${url}: 8 entries, 47 images, mobile layout, search, image viewer/position, offline reload`);
 } finally {if(browser)await browser.close();if(!target)await new Promise(resolve=>server.close(resolve));}
