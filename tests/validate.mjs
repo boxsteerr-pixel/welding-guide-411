@@ -14,14 +14,14 @@ const manifest = JSON.parse(manifestText);
 
 assert.equal(manual.machine.machineId, "411");
 assert.equal(manual.machine.machineName, "411激光焊机");
-assert.equal(manual.machine.manualVersion, "0.3.0");
+assert.equal(manual.machine.manualVersion, "0.4.0");
 assert.equal(manual.faults.length, 8);
 assert.equal(new Set(manual.faults.map(item => item.id)).size, 8);
 assert.deepEqual(manual.maintenance, []);
 assert.deepEqual(manual.safety, []);
 assert.equal(manifest.start_url, "./");
 assert.equal(manifest.scope, "./");
-assert.match(sw, /const CACHE_NAME = "welding-guide-411-v13"/);
+assert.match(sw, /const CACHE_NAME = "welding-guide-411-v14"/);
 assert.match(html, /id="currentTime"/);
 assert.match(html, /system-time\.js\?v=1/);
 assert.match(sw, /system-time\.js\?v=1/);
