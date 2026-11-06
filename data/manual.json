@@ -4,9 +4,9 @@
     "machineId": "411",
     "machineName": "411激光焊机",
     "manualTitle": "操作工快速处置手册",
-    "manualVersion": "0.5.0",
-    "contentStatus": "已录入8项异常处理手顺",
-    "lastUpdated": "2026-11-05"
+    "manualVersion": "0.6.1",
+    "contentStatus": "已录入8项异常处理手顺和1项点检维护手顺",
+    "lastUpdated": "2026-11-06"
   },
   "notices": [
     {
@@ -440,5 +440,36 @@
     }
   ],
   "maintenance": [],
-  "safety": []
+  "safety": [],
+  "inspection": [
+    {
+      "id": "guide-wheel-height",
+      "title": "调整411焊机导向轮高度",
+      "summary": "C411下导向轮高度测量及现场量具布置图。",
+      "risk": "high",
+      "keywords": [
+        "导向轮",
+        "下导向轮",
+        "高度",
+        "测量",
+        "入口",
+        "出口",
+        "百分表"
+      ],
+      "steps": [
+        {
+          "title": "导向轮高度测量布置",
+          "text": "按图查看入、出口导向轮高度测量及量具布置。附件未给出小车具体位置、目标高度、允许偏差或完整调整步骤。",
+          "image": "./assets/images/procedures/guide-wheel-height-mobile-01.webp",
+          "alt": "1：原图为入、出口导向轮高度测量布置。"
+        },
+        {
+          "title": "导向轮测量表安装位置",
+          "text": "原文展示导向轮与测量表布置；未给出目标高度或完整调整步骤。",
+          "image": "./assets/images/procedures/guide-wheel-height-mobile-02.webp",
+          "alt": "1：原图为测量表及导向轮布置。 2：原附件未给出小车具体位置、目标高度、允许偏差或完整调整步骤。"
+        }
+      ]
+    }
+  ]
 }

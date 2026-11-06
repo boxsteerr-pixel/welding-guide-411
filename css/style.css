@@ -205,6 +205,7 @@ button:focus-visible, input:focus-visible, summary:focus-visible { outline:3px s
 @media (max-width:340px) { .action-card:not(.action-card--primary) { padding:10px; gap:7px; } .action-card:not(.action-card--primary) .action-card__icon { width:34px; height:34px; flex-basis:34px; } }
 @media (min-width:720px) { .app-shell { padding:0 14px 36px; } .hero { margin:0 -14px; padding-left:22px; } .action-card:not(.action-card--primary) { min-height:128px; } .search-form { margin-top:0; } }
 .bottom-nav button span { font-size:12px; line-height:1.55; }
+.top-nav, .bottom-nav { grid-template-columns: repeat(5, 1fr); }
 .hotline { display:flex; align-items:center; gap:9px; margin:12px 3px 0; font-size:13px; color:#63758a; }
 .hotline > b { display:grid; place-items:center; flex:0 0 22px; height:22px; border-radius:50%; color:#fff; background:#f05a3f; font-size:12px; }
 .chips { display:flex; gap:6px; overflow-x:auto; min-height:34px; align-items:center; }

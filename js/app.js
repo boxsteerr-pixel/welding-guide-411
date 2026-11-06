@@ -2,7 +2,7 @@
   "use strict";
 
   const state = { manual: null, section: "home", query: "", deferredInstallPrompt: null };
-  const sectionNames = ["home", "faults", "maintenance", "safety"];
+  const sectionNames = ["home", "faults", "maintenance", "safety", "inspection"];
   const riskLabels = { high: "高风险", medium: "注意", low: "一般" };
 
   function text(value) {
@@ -177,13 +177,14 @@
     if (!keywords.childNodes.length) keywords.append(text("内容录入后显示快捷关键词"));
     renderCollection("#maintenance-list", manual.maintenance);
     renderCollection("#safety-list", manual.safety);
+    renderCollection("#inspection-list", manual.inspection);
   }
 
   async function loadManual() {
     const response = await fetch("./data/manual.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`手册数据读取失败：${response.status}`);
     const manual = await response.json();
-    ["faults", "maintenance", "safety", "notices"].forEach(function (key) {
+    ["faults", "maintenance", "safety", "inspection", "notices"].forEach(function (key) {
       if (!Array.isArray(manual[key])) throw new Error(`手册数据缺少数组：${key}`);
     });
     if (!manual.machine || !manual.machine.machineId) throw new Error("手册数据缺少设备配置");
