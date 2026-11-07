@@ -4,8 +4,8 @@
     "machineId": "411",
     "machineName": "411激光焊机",
     "manualTitle": "操作工快速处置手册",
-    "manualVersion": "0.6.1",
-    "contentStatus": "已录入8项异常处理手顺和1项点检维护手顺",
+    "manualVersion": "0.7.0",
+    "contentStatus": "已录入8项异常处理及3项点检维护手顺",
     "lastUpdated": "2026-11-06"
   },
   "notices": [
@@ -443,33 +443,128 @@
   "safety": [],
   "inspection": [
     {
-      "id": "guide-wheel-height",
-      "title": "调整411焊机导向轮高度",
-      "summary": "C411下导向轮高度测量及现场量具布置图。",
-      "risk": "high",
+      "id": "inspection-encoder",
+      "title": "旋转编码器和位移传感器更换",
+      "summary": "辨认设备并在博图中为更换后的设备分配 PROFINET 名称。",
       "keywords": [
-        "导向轮",
-        "下导向轮",
-        "高度",
-        "测量",
-        "入口",
-        "出口",
-        "百分表"
+        "旋转编码器",
+        "夹送辊",
+        "小车",
+        "位移传感器",
+        "PROFINET"
       ],
       "steps": [
         {
-          "title": "导向轮高度测量布置",
-          "text": "按图查看入、出口导向轮高度测量及量具布置。附件未给出小车具体位置、目标高度、允许偏差或完整调整步骤。",
-          "image": "./assets/images/procedures/guide-wheel-height-mobile-01.webp",
-          "alt": "1：原图为入、出口导向轮高度测量布置。"
+          "title": "辨认夹送辊编码器",
+          "text": "图示夹送辊旋转编码器。原文说明小车编码器可用于夹送辊。",
+          "image": "./assets/images/procedures/inspection-encoder-01.webp",
+          "alt": "辨认夹送辊编码器。图示夹送辊旋转编码器。原文说明小车编码器可用于夹送辊。"
         },
         {
-          "title": "导向轮测量表安装位置",
-          "text": "原文展示导向轮与测量表布置；未给出目标高度或完整调整步骤。",
-          "image": "./assets/images/procedures/guide-wheel-height-mobile-02.webp",
-          "alt": "1：原图为测量表及导向轮布置。 2：原附件未给出小车具体位置、目标高度、允许偏差或完整调整步骤。"
+          "title": "辨认小车编码器",
+          "text": "图示小车编码器。更换前核对设备型号及连接。",
+          "image": "./assets/images/procedures/inspection-encoder-02.webp",
+          "alt": "辨认小车编码器。图示小车编码器。更换前核对设备型号及连接。"
+        },
+        {
+          "title": "辨认夹钳台位移传感器",
+          "text": "图示夹钳台位移传感器。",
+          "image": "./assets/images/procedures/inspection-encoder-03.webp",
+          "alt": "辨认夹钳台位移传感器。图示夹钳台位移传感器。"
+        },
+        {
+          "title": "分配设备名称",
+          "text": "仅更换编码器或位移传感器，或更换电源线、网线但交换机端口不变时，在分布式 IO 中选择 Profinet IO-System（101）PN/IE_100，找到目标设备组态位置。进入「功能」→「分配 PROFINET 设备名称」，点击「更新列表」，选择新设备并点击「分配名称」。核对目标设备后再执行。",
+          "image": "./assets/images/procedures/inspection-encoder-04.webp",
+          "alt": "分配设备名称。仅更换编码器或位移传感器，或更换电源线、网线但交换机端口不变时，在分布式 IO 中选择 Profinet IO-System（101）PN/IE_100，找到目标设备组态位置。进入「功能」→「分配 PROFINET 设备名称」，点击「更新列表」，选择新设备并点击「分配名称」。核对目标设备后再执行。"
         }
-      ]
+      ],
+      "risk": "high"
+    },
+    {
+      "id": "inspection-wheel",
+      "title": "导向轮高度测量",
+      "summary": "查看 C411 下导向轮测量布置。附件未给出小车具体位置、目标高度、允许偏差和完整调整步骤。",
+      "keywords": [
+        "导向轮",
+        "高度",
+        "百分表",
+        "入口",
+        "出口"
+      ],
+      "steps": [
+        {
+          "title": "查看导向轮高度测量布置",
+          "text": "附件展示入、出口导向轮高度测量的量具布置。小车具体位置及目标高度未给出。",
+          "image": "./assets/images/procedures/inspection-wheel-01.webp",
+          "alt": "查看导向轮高度测量布置。附件展示入、出口导向轮高度测量的量具布置。小车具体位置及目标高度未给出。"
+        },
+        {
+          "title": "查看测量表安装位置",
+          "text": "图示导向轮及测量表位置。附件未提供允许偏差或完整调整步骤，具体调整按现场批准的手顺执行。",
+          "image": "./assets/images/procedures/inspection-wheel-02.webp",
+          "alt": "查看测量表安装位置。图示导向轮及测量表位置。附件未提供允许偏差或完整调整步骤，具体调整按现场批准的手顺执行。"
+        }
+      ],
+      "risk": "high"
+    },
+    {
+      "id": "inspection-displacement",
+      "title": "直线位移传感器更换与名称分配",
+      "summary": "在线更换直线位移传感器，检查信号并按需分配设备名称。附件为 C202 手顺，用户已确认适用于 411。",
+      "keywords": [
+        "C202",
+        "直线位移传感器",
+        "在线更换",
+        "MAC",
+        "PROFINET",
+        "博图"
+      ],
+      "steps": [
+        {
+          "title": "连接更换后的传感器",
+          "text": "在线更换直线位移传感器，网线和电源线需一一对应。",
+          "image": "./assets/images/procedures/inspection-displacement-01.webp",
+          "alt": "连接更换后的传感器。在线更换直线位移传感器，网线和电源线需一一对应。"
+        },
+        {
+          "title": "观察传感器信号",
+          "text": "观察新传感器信号是否恢复。原文称若恢复正常，设备名称及 IP 地址已自动分配；若使用过的传感器未恢复，继续以下名称分配步骤。",
+          "image": "./assets/images/procedures/inspection-displacement-02.webp",
+          "alt": "观察传感器信号。观察新传感器信号是否恢复。原文称若恢复正常，设备名称及 IP 地址已自动分配；若使用过的传感器未恢复，继续以下名称分配步骤。"
+        },
+        {
+          "title": "查找设备组态位置",
+          "text": "打开博图，找到更换后位移传感器所在的设备组态位置。",
+          "image": "./assets/images/procedures/inspection-displacement-03.webp",
+          "alt": "查找设备组态位置。打开博图，找到更换后位移传感器所在的设备组态位置。"
+        },
+        {
+          "title": "选择分配名称与接口",
+          "text": "在「功能」中选择「分配 PROFINET 设备名称」。原文示例接口类型为 PN/IE，网卡为 Motorcomm YT6801 Gigabit Ethernet Adapter；现场应选择实际连接设备的接口。",
+          "image": "./assets/images/procedures/inspection-displacement-04.webp",
+          "alt": "选择分配名称与接口。在「功能」中选择「分配 PROFINET 设备名称」。原文示例接口类型为 PN/IE，网卡为 Motorcomm YT6801 Gigabit Ethernet Adapter；现场应选择实际连接设备的接口。"
+        },
+        {
+          "title": "核对传感器 MAC 地址",
+          "text": "读取传感器铭牌上的 MAC 地址，用于识别需要分配名称的设备。图中地址仅为附件示例。",
+          "image": "./assets/images/procedures/inspection-displacement-05.webp",
+          "alt": "核对传感器 MAC 地址。读取传感器铭牌上的 MAC 地址，用于识别需要分配名称的设备。图中地址仅为附件示例。"
+        },
+        {
+          "title": "选择匹配设备并分配名称",
+          "text": "在列表中查找与目标传感器相同的 MAC 地址，确认设备后点击「分配名称」。",
+          "image": "./assets/images/procedures/inspection-displacement-06.webp",
+          "alt": "选择匹配设备并分配名称。在列表中查找与目标传感器相同的 MAC 地址，确认设备后点击「分配名称」。"
+        },
+        {
+          "title": "确认信号恢复",
+          "text": "分配名称后查看设备状态和信号是否恢复正常。原文说明使用过的传感器可能保留原安装位置的设备名称。",
+          "image": "./assets/images/procedures/inspection-displacement-07.webp",
+          "alt": "确认信号恢复。分配名称后查看设备状态和信号是否恢复正常。原文说明使用过的传感器可能保留原安装位置的设备名称。"
+        }
+      ],
+      "risk": "high"
     }
   ]
 }

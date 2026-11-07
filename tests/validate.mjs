@@ -14,15 +14,15 @@ const manifest = JSON.parse(manifestText);
 
 assert.equal(manual.machine.machineId, "411");
 assert.equal(manual.machine.machineName, "411激光焊机");
-assert.equal(manual.machine.manualVersion, "0.6.1");
+assert.equal(manual.machine.manualVersion, "0.7.0");
 assert.equal(manual.faults.length, 8);
 assert.equal(new Set(manual.faults.map(item => item.id)).size, 8);
 assert.deepEqual(manual.maintenance, []);
-assert.equal(manual.inspection.length, 1);
+assert.equal(manual.inspection.length, 3);
 assert.deepEqual(manual.safety, []);
 assert.equal(manifest.start_url, "./");
 assert.equal(manifest.scope, "./");
-assert.match(sw, /const CACHE_NAME = "welding-guide-411-v21"/);
+assert.match(sw, /const CACHE_NAME = "welding-guide-411-v22"/);
 assert.match(html, /id="currentTime"/);
 assert.match(html, /system-time\.js\?v=1/);
 assert.match(sw, /system-time\.js\?v=1/);
@@ -46,12 +46,20 @@ for (const image of images) {
   assert.match(image, /^\.\/assets\/images\/procedures\/[a-z0-9-]+\.webp$/);
   assert.ok((await stat(path.join(root, image))).size > 1000, image);
 }
+const inspectionImages = manual.inspection.flatMap(item => {
+  assert.ok(item.title && item.summary && item.keywords.length && item.steps.length, item.id);
+  for (const step of item.steps) assert.ok(step.title && step.text && step.alt && step.image, item.id);
+  return item.steps.map(step => step.image);
+});
+assert.equal(inspectionImages.length, 13);
+assert.equal(new Set(inspectionImages).size, inspectionImages.length);
+for (const image of inspectionImages) assert.ok((await stat(path.join(root, image))).size > 1000, image);
 const listeners = new Map(), cacheStore = new Map();
 const cache = {addAll: async urls => {for (const url of urls) cacheStore.set(url, {ok:true,url});},match:async request=>cacheStore.get(typeof request==='string'?request:request.url)};
 let pending;
 vm.runInNewContext(sw, {URL, Promise, self:{location:{href:'https://test/welding-guide-411/service-worker.js',origin:'https://test'},addEventListener:(name,fn)=>listeners.set(name,fn)},caches:{open:async()=>cache},fetch:async()=>{throw Error('offline');}});
 listeners.get('install')({waitUntil:p=>pending=p}); await pending;
-for (const image of images) {
+for (const image of [...images, ...inspectionImages]) {
   const url=new URL(image,'https://test/welding-guide-411/').href;
   assert.ok(cacheStore.has(url), `首次安装应缓存原图: ${image}`);
   let response;

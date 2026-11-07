@@ -50,16 +50,16 @@ try {
   await page.locator('#search-input').press('Enter');
   await page.waitForFunction(()=>document.querySelectorAll('#fault-list details').length===8);
   await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
-  await page.waitForFunction(async()=>{const keys=await caches.keys();return keys.includes('welding-guide-411-v21');});
-  const cached=await page.evaluate(async()=>{const c=await caches.open('welding-guide-411-v21');return (await c.keys()).filter(r=>r.url.includes('/procedures/')).length;});
-  assert.equal(cached,47);
+  await page.waitForFunction(async()=>{const keys=await caches.keys();return keys.includes('welding-guide-411-v22');});
+  const cached=await page.evaluate(async()=>{const c=await caches.open('welding-guide-411-v22');return (await c.keys()).filter(r=>r.url.includes('/procedures/')).length;});
+  assert.equal(cached,60);
   await context.setOffline(true);
   await page.reload();
   await page.waitForFunction(()=>document.querySelectorAll('#fault-list details').length===8);
   await entries.last().locator('summary').click();
   await entries.last().locator('img').last().evaluate(img=>img.decode());
   await page.locator('nav button[data-section="inspection"]:visible').first().click();
-  assert.equal(await page.locator('#inspection-list details').count(), 1);
+  assert.equal(await page.locator('#inspection-list details').count(), 3);
   assert.deepEqual(errors,[]);
   console.log(`PASS ${url}: 8 entries, 47 images, mobile layout, search, image viewer/position, offline reload`);
 } finally {if(browser)await browser.close();if(!target)await new Promise(resolve=>server.close(resolve));}

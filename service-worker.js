@@ -1,4 +1,4 @@
-const CACHE_NAME = "welding-guide-411-v21";
+const CACHE_NAME = "welding-guide-411-v22";
 const CACHE_PREFIX = "welding-guide-411-";
 const APP_ROOT = new URL("./", self.location.href);
 const CORE_ASSETS = [
@@ -63,7 +63,20 @@ const CORE_ASSETS = [
   "./assets/images/procedures/tia-program-download-mobile-06.webp",
   "./assets/images/procedures/tia-program-download-mobile-07.webp",
   "./assets/images/procedures/guide-wheel-height-mobile-01.webp",
-  "./assets/images/procedures/guide-wheel-height-mobile-02.webp"
+  "./assets/images/procedures/guide-wheel-height-mobile-02.webp",
+  "./assets/images/procedures/inspection-encoder-01.webp",
+  "./assets/images/procedures/inspection-encoder-02.webp",
+  "./assets/images/procedures/inspection-encoder-03.webp",
+  "./assets/images/procedures/inspection-encoder-04.webp",
+  "./assets/images/procedures/inspection-wheel-01.webp",
+  "./assets/images/procedures/inspection-wheel-02.webp",
+  "./assets/images/procedures/inspection-displacement-01.webp",
+  "./assets/images/procedures/inspection-displacement-02.webp",
+  "./assets/images/procedures/inspection-displacement-03.webp",
+  "./assets/images/procedures/inspection-displacement-04.webp",
+  "./assets/images/procedures/inspection-displacement-05.webp",
+  "./assets/images/procedures/inspection-displacement-06.webp",
+  "./assets/images/procedures/inspection-displacement-07.webp"
 ].map(function (path) { return new URL(path, APP_ROOT).toString(); });
 
 function isCacheable(response) {
