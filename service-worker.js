@@ -1,4 +1,4 @@
-const CACHE_NAME = "welding-guide-411-v23";
+const CACHE_NAME = "welding-guide-411-v24";
 const CACHE_PREFIX = "welding-guide-411-";
 const APP_ROOT = new URL("./", self.location.href);
 const CORE_ASSETS = [
@@ -76,7 +76,16 @@ const CORE_ASSETS = [
   "./assets/images/procedures/inspection-displacement-04.webp",
   "./assets/images/procedures/inspection-displacement-05.webp",
   "./assets/images/procedures/inspection-displacement-06.webp",
-  "./assets/images/procedures/inspection-displacement-07.webp"
+  "./assets/images/procedures/inspection-displacement-07.webp",
+  "./assets/images/procedures/inspection-optics-01.webp",
+  "./assets/images/procedures/inspection-optics-02.webp",
+  "./assets/images/procedures/inspection-optics-03.webp",
+  "./assets/images/procedures/inspection-optics-04.webp",
+  "./assets/images/procedures/inspection-optics-05.webp",
+  "./assets/images/procedures/inspection-optics-06.webp",
+  "./assets/images/procedures/inspection-optics-07.webp",
+  "./assets/images/procedures/inspection-optics-numbered.webp",
+  "./assets/images/procedures/inspection-optics-09.webp"
 ].map(function (path) { return new URL(path, APP_ROOT).toString(); });
 
 function isCacheable(response) {

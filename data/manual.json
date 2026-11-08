@@ -4,9 +4,9 @@
     "machineId": "411",
     "machineName": "411激光焊机",
     "manualTitle": "操作工快速处置手册",
-    "manualVersion": "0.7.0",
-    "contentStatus": "已录入8项异常处理及3项点检维护手顺",
-    "lastUpdated": "2026-11-06"
+    "manualVersion": "0.8.0",
+    "contentStatus": "已录入8项异常处理及4项点检维护手顺",
+    "lastUpdated": "2026-11-07"
   },
   "notices": [
     {
@@ -565,6 +565,79 @@
         }
       ],
       "risk": "high"
+    },
+    {
+      "id": "inspection-optics",
+      "title": "清洁外光路第二面反射镜以及聚焦镜",
+      "summary": "关闭冷却水、清洁反射镜及聚焦镜，然后复装导向轮并恢复冷却水。",
+      "risk": "high",
+      "keywords": [
+        "聚焦镜",
+        "反射镜",
+        "外光路",
+        "冷却水",
+        "导向轮",
+        "清洁"
+      ],
+      "checks": [
+        "由授权人员按现场规定停机、隔离危险能源并确认安全状态后作业。"
+      ],
+      "steps": [
+        {
+          "title": "关闭外光路冷却水阀",
+          "text": "关闭外光路冷却水管进、出水阀门。",
+          "image": "./assets/images/procedures/inspection-optics-01.webp",
+          "alt": "关闭外光路冷却水阀，见图示"
+        },
+        {
+          "title": "打开第二面反射镜",
+          "text": "在小车出口侧松开三个固定螺丝，原文注明无固定顺序。水管已标记上下位置，清洁镜面可不拆水管。",
+          "image": "./assets/images/procedures/inspection-optics-02.webp",
+          "alt": "打开第二面反射镜，见图示"
+        },
+        {
+          "title": "清洁反射镜",
+          "text": "原文要求将研磨剂涂在镜面中心或棉花上，从中心向四周擦拭，直至研磨剂完全干。根据脏污情况至少清洁两次。水管未拆时产生水雾，用干棉花多次擦拭。",
+          "image": "./assets/images/procedures/inspection-optics-03.webp",
+          "alt": "清洁反射镜，见图示"
+        },
+        {
+          "title": "清洁镜座及镜口",
+          "text": "用干棉花擦拭镜座四周及第二面反射镜镜口，图片以聚焦镜为例。",
+          "image": "./assets/images/procedures/inspection-optics-04.webp",
+          "alt": "清洁镜座及镜口，见图示"
+        },
+        {
+          "title": "松开入口侧导向轮螺丝",
+          "text": "原文注明往右松开图中螺丝。",
+          "image": "./assets/images/procedures/inspection-optics-05.webp",
+          "alt": "松开入口侧导向轮螺丝，见图示"
+        },
+        {
+          "title": "打开入口侧导向轮",
+          "text": "图示导向轮及导向杆。",
+          "image": "./assets/images/procedures/inspection-optics-06.webp",
+          "alt": "打开入口侧导向轮，见图示"
+        },
+        {
+          "title": "退出导向杆",
+          "text": "原文要求用扳手卡住，再用锤子向下敲，直至导向杆完全出来。",
+          "image": "./assets/images/procedures/inspection-optics-07.webp",
+          "alt": "退出导向杆，见图示"
+        },
+        {
+          "title": "打开和清洁聚焦镜",
+          "text": "按图示编号，松开进、出口水管后，按1→2→3→4依次松开固定螺丝。原文标注1为4×15螺丝，2、3、4为4×17mm螺丝；3号位置被水管遮挡，编号位置按附件截图标识。取出聚焦镜，将研磨剂涂于镜面中心或棉花上，从中心向四周擦拭至研磨剂完全干净，并清洁镜座四周，根据脏污情况至少清洁两次。安装按1→3→2→4先旋入，再逐步紧固。",
+          "image": "./assets/images/procedures/inspection-optics-numbered.webp",
+          "alt": "打开和清洁聚焦镜，见图示"
+        },
+        {
+          "title": "安装导向轮并打开冷却水",
+          "text": "按原文复装导向轮及导向杆，拧紧螺丝，打开外光路冷却水进、出水阀。",
+          "image": "./assets/images/procedures/inspection-optics-09.webp",
+          "alt": "安装导向轮并打开冷却水，见图示"
+        }
+      ]
     }
   ]
 }
