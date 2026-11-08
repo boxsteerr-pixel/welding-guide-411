@@ -1,4 +1,4 @@
-const CACHE_NAME = "welding-guide-411-v26";
+const CACHE_NAME = "welding-guide-411-v27";
 const CACHE_PREFIX = "welding-guide-411-";
 const APP_ROOT = new URL("./", self.location.href);
 const CORE_ASSETS = [
@@ -8,7 +8,7 @@ const CORE_ASSETS = [
   "./index.html",
   "./css/home-link.css?v=5",
   "./css/style.css",
-  "./css/style.css?v=9",
+  "./css/style.css?v=10",
   "./js/app.js",
   "./js/app.js?v=10",
   "./js/update-state.js?v=2",
@@ -64,28 +64,28 @@ const CORE_ASSETS = [
   "./assets/images/procedures/tia-program-download-mobile-07.webp",
   "./assets/images/procedures/guide-wheel-height-mobile-01.webp",
   "./assets/images/procedures/guide-wheel-height-mobile-02.webp",
-  "./assets/images/procedures/inspection-encoder-annotated-01.webp",
-  "./assets/images/procedures/inspection-encoder-annotated-02.webp",
-  "./assets/images/procedures/inspection-encoder-annotated-03.webp",
-  "./assets/images/procedures/inspection-encoder-annotated-04.webp",
-  "./assets/images/procedures/inspection-wheel-annotated-01.webp",
-  "./assets/images/procedures/inspection-wheel-annotated-02.webp",
-  "./assets/images/procedures/inspection-displacement-annotated-01.webp",
-  "./assets/images/procedures/inspection-displacement-annotated-02.webp",
-  "./assets/images/procedures/inspection-displacement-annotated-03.webp",
-  "./assets/images/procedures/inspection-displacement-annotated-04.webp",
-  "./assets/images/procedures/inspection-displacement-annotated-05.webp",
-  "./assets/images/procedures/inspection-displacement-annotated-06.webp",
-  "./assets/images/procedures/inspection-displacement-annotated-07.webp",
-  "./assets/images/procedures/inspection-optics-annotated-01.webp",
-  "./assets/images/procedures/inspection-optics-annotated-02.webp",
-  "./assets/images/procedures/inspection-optics-annotated-03.webp",
-  "./assets/images/procedures/inspection-optics-annotated-04.webp",
-  "./assets/images/procedures/inspection-optics-annotated-05.webp",
-  "./assets/images/procedures/inspection-optics-annotated-06.webp",
-  "./assets/images/procedures/inspection-optics-annotated-07.webp",
-  "./assets/images/procedures/inspection-optics-annotated-08.webp",
-  "./assets/images/procedures/inspection-optics-annotated-09.webp"
+  "./assets/images/procedures/inspection-encoder-mobile-notes-01.webp",
+  "./assets/images/procedures/inspection-encoder-mobile-notes-02.webp",
+  "./assets/images/procedures/inspection-encoder-mobile-notes-03.webp",
+  "./assets/images/procedures/inspection-encoder-mobile-notes-04.webp",
+  "./assets/images/procedures/inspection-wheel-mobile-notes-01.webp",
+  "./assets/images/procedures/inspection-wheel-mobile-notes-02.webp",
+  "./assets/images/procedures/inspection-displacement-mobile-notes-01.webp",
+  "./assets/images/procedures/inspection-displacement-mobile-notes-02.webp",
+  "./assets/images/procedures/inspection-displacement-mobile-notes-03.webp",
+  "./assets/images/procedures/inspection-displacement-mobile-notes-04.webp",
+  "./assets/images/procedures/inspection-displacement-mobile-notes-05.webp",
+  "./assets/images/procedures/inspection-displacement-mobile-notes-06.webp",
+  "./assets/images/procedures/inspection-displacement-mobile-notes-07.webp",
+  "./assets/images/procedures/inspection-optics-mobile-notes-01.webp",
+  "./assets/images/procedures/inspection-optics-mobile-notes-02.webp",
+  "./assets/images/procedures/inspection-optics-mobile-notes-03.webp",
+  "./assets/images/procedures/inspection-optics-mobile-notes-04.webp",
+  "./assets/images/procedures/inspection-optics-mobile-notes-05.webp",
+  "./assets/images/procedures/inspection-optics-mobile-notes-06.webp",
+  "./assets/images/procedures/inspection-optics-mobile-notes-07.webp",
+  "./assets/images/procedures/inspection-optics-mobile-notes-08.webp",
+  "./assets/images/procedures/inspection-optics-mobile-notes-09.webp"
 ].map(function (path) { return new URL(path, APP_ROOT).toString(); });
 
 function isCacheable(response) {

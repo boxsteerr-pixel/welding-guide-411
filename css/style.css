@@ -178,6 +178,7 @@ footer { padding: 24px 0 8px; color: var(--muted); text-align: center; font-size
 .entry-body { padding:12px; }
 .entry-body h4 { color:#154f7d; }
 .step-card { padding:12px; border-radius:9px; background:#fbfdff; }
+#inspection .step-card p { padding:10px 12px; border-left:4px solid #e39b00; border-radius:4px; background:#fff8e7; color:#20384b; font-size:16px; line-height:1.65; }
 .collection-toolbar { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin:10px 0; }
 .collection-toolbar button { min-height:44px; color:#145789; background:#f5faff; border:1px solid #bdd2e6; border-radius:8px; font-weight:700; }
 .collection-toolbar button:first-child { color:#fff; background:#1269ad; }

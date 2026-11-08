@@ -50,8 +50,8 @@ try {
   await page.locator('#search-input').press('Enter');
   await page.waitForFunction(()=>document.querySelectorAll('#fault-list details').length===8);
   await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
-  await page.waitForFunction(async()=>{const keys=await caches.keys();return keys.includes('welding-guide-411-v26');});
-  const cached=await page.evaluate(async()=>{const c=await caches.open('welding-guide-411-v26');return (await c.keys()).filter(r=>r.url.includes('/procedures/')).length;});
+  await page.waitForFunction(async()=>{const keys=await caches.keys();return keys.includes('welding-guide-411-v27');});
+  const cached=await page.evaluate(async()=>{const c=await caches.open('welding-guide-411-v27');return (await c.keys()).filter(r=>r.url.includes('/procedures/')).length;});
   assert.equal(cached,69);
   await context.setOffline(true);
   await page.reload();
