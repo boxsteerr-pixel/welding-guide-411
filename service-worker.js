@@ -1,4 +1,4 @@
-const CACHE_NAME = "welding-guide-411-v27";
+const CACHE_NAME = "welding-guide-411-v28";
 const CACHE_PREFIX = "welding-guide-411-";
 const APP_ROOT = new URL("./", self.location.href);
 const CORE_ASSETS = [
@@ -41,8 +41,8 @@ const CORE_ASSETS = [
   "./assets/images/procedures/laser-alarm-history-mobile-01.webp",
   "./assets/images/procedures/laser-alarm-history-mobile-02.webp",
   "./assets/images/procedures/laser-alarm-history-mobile-03.webp",
-  "./assets/images/procedures/laser-alarm-history-mobile-04.webp",
-  "./assets/images/procedures/laser-alarm-history-mobile-05.webp",
+  "./assets/images/procedures/laser-alarm-history-corrected-04.webp",
+  "./assets/images/procedures/laser-alarm-history-corrected-05.webp",
   "./assets/images/procedures/qcds-sensor-parameters-mobile-01.webp",
   "./assets/images/procedures/qcds-sensor-parameters-mobile-02.webp",
   "./assets/images/procedures/qcds-sensor-parameters-mobile-03.webp",
@@ -58,23 +58,20 @@ const CORE_ASSETS = [
   "./assets/images/procedures/tia-program-download-mobile-01.webp",
   "./assets/images/procedures/tia-program-download-mobile-02.webp",
   "./assets/images/procedures/tia-program-download-mobile-03.webp",
-  "./assets/images/procedures/tia-program-download-mobile-04.webp",
-  "./assets/images/procedures/tia-program-download-mobile-05.webp",
+  "./assets/images/procedures/tia-program-download-corrected-04.webp",
+  "./assets/images/procedures/tia-program-download-corrected-05.webp",
   "./assets/images/procedures/tia-program-download-mobile-06.webp",
-  "./assets/images/procedures/tia-program-download-mobile-07.webp",
+  "./assets/images/procedures/tia-program-download-corrected-07.webp",
   "./assets/images/procedures/guide-wheel-height-mobile-01.webp",
   "./assets/images/procedures/guide-wheel-height-mobile-02.webp",
-  "./assets/images/procedures/inspection-encoder-mobile-notes-01.webp",
   "./assets/images/procedures/inspection-encoder-mobile-notes-02.webp",
   "./assets/images/procedures/inspection-encoder-mobile-notes-03.webp",
   "./assets/images/procedures/inspection-encoder-mobile-notes-04.webp",
   "./assets/images/procedures/inspection-wheel-mobile-notes-01.webp",
-  "./assets/images/procedures/inspection-wheel-mobile-notes-02.webp",
   "./assets/images/procedures/inspection-displacement-mobile-notes-01.webp",
   "./assets/images/procedures/inspection-displacement-mobile-notes-02.webp",
   "./assets/images/procedures/inspection-displacement-mobile-notes-03.webp",
   "./assets/images/procedures/inspection-displacement-mobile-notes-04.webp",
-  "./assets/images/procedures/inspection-displacement-mobile-notes-05.webp",
   "./assets/images/procedures/inspection-displacement-mobile-notes-06.webp",
   "./assets/images/procedures/inspection-displacement-mobile-notes-07.webp",
   "./assets/images/procedures/inspection-optics-mobile-notes-01.webp",
@@ -85,7 +82,10 @@ const CORE_ASSETS = [
   "./assets/images/procedures/inspection-optics-mobile-notes-06.webp",
   "./assets/images/procedures/inspection-optics-mobile-notes-07.webp",
   "./assets/images/procedures/inspection-optics-mobile-notes-08.webp",
-  "./assets/images/procedures/inspection-optics-mobile-notes-09.webp"
+  "./assets/images/procedures/inspection-encoder-corrected-01.webp",
+  "./assets/images/procedures/inspection-wheel-corrected-02.webp",
+  "./assets/images/procedures/inspection-displacement-corrected-05.webp",
+  "./assets/images/procedures/inspection-optics-corrected-09.webp"
 ].map(function (path) { return new URL(path, APP_ROOT).toString(); });
 
 function isCacheable(response) {

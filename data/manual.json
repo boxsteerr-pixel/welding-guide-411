@@ -4,7 +4,7 @@
     "machineId": "411",
     "machineName": "411激光焊机",
     "manualTitle": "操作工快速处置手册",
-    "manualVersion": "0.8.2",
+    "manualVersion": "0.8.3",
     "contentStatus": "已录入8项异常处理及4项点检维护手顺",
     "lastUpdated": "2026-11-07"
   },
@@ -227,14 +227,14 @@
         {
           "title": "激光报警实时信息",
           "text": "图四：激光报警实时信息。",
-          "image": "./assets/images/procedures/laser-alarm-history-mobile-04.webp",
-          "alt": "1：此画面为激光报警实时信息。"
+          "image": "./assets/images/procedures/laser-alarm-history-corrected-04.webp",
+          "alt": "查看激光报警实时信息。"
         },
         {
           "title": "激光报警历史信息",
           "text": "图五：激光报警历史信息。",
-          "image": "./assets/images/procedures/laser-alarm-history-mobile-05.webp",
-          "alt": "1：此画面为激光报警历史信息。"
+          "image": "./assets/images/procedures/laser-alarm-history-corrected-05.webp",
+          "alt": "查看激光报警历史信息。"
         }
       ]
     },
@@ -386,14 +386,14 @@
         {
           "title": "同步程序块并完成",
           "text": "选择同步，传输完成后一切正常时点击“完成”。 选择同步，待传输完成出现总结窗口；一切正常时点击“完成”。程序块状态按原图恢复后，在左上角“项目（P）”中选择“归档（H）”，查看归档目标路径。",
-          "image": "./assets/images/procedures/tia-program-download-mobile-04.webp",
-          "alt": "1：选择“同步”，等待传输完成；正常时在总结窗口点击“完成”。"
+          "image": "./assets/images/procedures/tia-program-download-corrected-04.webp",
+          "alt": "原图红框：选择“同步”。"
         },
         {
           "title": "选择项目归档",
           "text": "点击“项目（P）”→“归档（H）”。",
-          "image": "./assets/images/procedures/tia-program-download-mobile-05.webp",
-          "alt": "1：点击左上角“项目（P）”。 2：选择“归档（H）”。"
+          "image": "./assets/images/procedures/tia-program-download-corrected-05.webp",
+          "alt": "按原图红框，先点击“项目（P）”，再选择“归档（H）”。"
         },
         {
           "title": "查看归档目标路径",
@@ -404,8 +404,8 @@
         {
           "title": "在目标路径查找归档文件",
           "text": "在目标路径磁盘中找到归档文件夹。 在目标路径的磁盘中找到归档文件夹，目录示例及标注见原页。",
-          "image": "./assets/images/procedures/tia-program-download-mobile-07.webp",
-          "alt": "1：在目标路径磁盘中找到归档文件夹。 2：原图展示归档文件列表。"
+          "image": "./assets/images/procedures/tia-program-download-corrected-07.webp",
+          "alt": "原图红框标出目标磁盘、归档文件夹及文件列表。"
         }
       ]
     },
@@ -457,7 +457,7 @@
         {
           "title": "辨认夹送辊编码器",
           "text": "图示夹送辊旋转编码器。原文说明小车编码器可用于夹送辊。",
-          "image": "./assets/images/procedures/inspection-encoder-mobile-notes-01.webp",
+          "image": "./assets/images/procedures/inspection-encoder-corrected-01.webp",
           "alt": "辨认夹送辊编码器。图示夹送辊旋转编码器。原文说明小车编码器可用于夹送辊。"
         },
         {
@@ -502,7 +502,7 @@
         {
           "title": "查看测量表安装位置",
           "text": "图示导向轮及测量表位置。附件未提供允许偏差或完整调整步骤，具体调整按现场批准的手顺执行。",
-          "image": "./assets/images/procedures/inspection-wheel-mobile-notes-02.webp",
+          "image": "./assets/images/procedures/inspection-wheel-corrected-02.webp",
           "alt": "查看测量表安装位置。图示导向轮及测量表位置。附件未提供允许偏差或完整调整步骤，具体调整按现场批准的手顺执行。"
         }
       ],
@@ -548,7 +548,7 @@
         {
           "title": "核对传感器 MAC 地址",
           "text": "读取传感器铭牌上的 MAC 地址，用于识别需要分配名称的设备。图中地址仅为附件示例。",
-          "image": "./assets/images/procedures/inspection-displacement-mobile-notes-05.webp",
+          "image": "./assets/images/procedures/inspection-displacement-corrected-05.webp",
           "alt": "核对传感器 MAC 地址。读取传感器铭牌上的 MAC 地址，用于识别需要分配名称的设备。图中地址仅为附件示例。"
         },
         {
@@ -634,7 +634,7 @@
         {
           "title": "安装导向轮并打开冷却水",
           "text": "按原文复装导向轮及导向杆，拧紧螺丝，打开外光路冷却水进、出水阀。",
-          "image": "./assets/images/procedures/inspection-optics-mobile-notes-09.webp",
+          "image": "./assets/images/procedures/inspection-optics-corrected-09.webp",
           "alt": "安装导向轮并打开冷却水。按原文复装导向轮及导向杆，拧紧螺丝，打开外光路冷却水进、出水阀。"
         }
       ]
