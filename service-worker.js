@@ -1,4 +1,4 @@
-const CACHE_NAME = "welding-guide-411-v28";
+const CACHE_NAME = "welding-guide-411-v29";
 const CACHE_PREFIX = "welding-guide-411-";
 const APP_ROOT = new URL("./", self.location.href);
 const CORE_ASSETS = [
@@ -48,7 +48,7 @@ const CORE_ASSETS = [
   "./assets/images/procedures/qcds-sensor-parameters-mobile-03.webp",
   "./assets/images/procedures/qcds-sensor-parameters-mobile-04.webp",
   "./assets/images/procedures/qcds-sensor-parameters-mobile-05.webp",
-  "./assets/images/procedures/qcds-sensor-parameters-mobile-06.webp",
+  "./assets/images/procedures/qcds-parameters-clear-06.webp",
   "./assets/images/procedures/qcds-camera-change-mobile-01.webp",
   "./assets/images/procedures/qcds-camera-change-mobile-02.webp",
   "./assets/images/procedures/qcds-camera-change-mobile-03.webp",

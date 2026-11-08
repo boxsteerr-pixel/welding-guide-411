@@ -4,7 +4,7 @@
     "machineId": "411",
     "machineName": "411激光焊机",
     "manualTitle": "操作工快速处置手册",
-    "manualVersion": "0.8.3",
+    "manualVersion": "0.8.4",
     "contentStatus": "已录入8项异常处理及4项点检维护手顺",
     "lastUpdated": "2026-11-07"
   },
@@ -287,7 +287,7 @@
         {
           "title": "熔透率曲线及飞溅显示",
           "text": "原图所标曲线参数增加则曲线比例变小；飞溅淡化会降低光斑和对接间隙线清晰度。 原图所标曲线参数增加则熔透率曲线比例变小，减小则曲线比例变大。打开原图所标选项可淡化光斑周围飞溅，但会降低光斑和对接间隙线清晰度。",
-          "image": "./assets/images/procedures/qcds-sensor-parameters-mobile-06.webp",
+          "image": "./assets/images/procedures/qcds-parameters-clear-06.webp",
           "alt": "1：滤波阈值增加则熔透率曲线比例变小，减小则曲线比例变大。 2：飞溅淡化选项：开启后会降低光斑及对接间隙线清晰度。"
         }
       ]
