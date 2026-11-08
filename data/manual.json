@@ -4,7 +4,7 @@
     "machineId": "411",
     "machineName": "411激光焊机",
     "manualTitle": "操作工快速处置手册",
-    "manualVersion": "0.8.0",
+    "manualVersion": "0.8.1",
     "contentStatus": "已录入8项异常处理及4项点检维护手顺",
     "lastUpdated": "2026-11-07"
   },
@@ -457,25 +457,25 @@
         {
           "title": "辨认夹送辊编码器",
           "text": "图示夹送辊旋转编码器。原文说明小车编码器可用于夹送辊。",
-          "image": "./assets/images/procedures/inspection-encoder-01.webp",
+          "image": "./assets/images/procedures/inspection-encoder-annotated-01.webp",
           "alt": "辨认夹送辊编码器。图示夹送辊旋转编码器。原文说明小车编码器可用于夹送辊。"
         },
         {
           "title": "辨认小车编码器",
           "text": "图示小车编码器。更换前核对设备型号及连接。",
-          "image": "./assets/images/procedures/inspection-encoder-02.webp",
+          "image": "./assets/images/procedures/inspection-encoder-annotated-02.webp",
           "alt": "辨认小车编码器。图示小车编码器。更换前核对设备型号及连接。"
         },
         {
           "title": "辨认夹钳台位移传感器",
           "text": "图示夹钳台位移传感器。",
-          "image": "./assets/images/procedures/inspection-encoder-03.webp",
+          "image": "./assets/images/procedures/inspection-encoder-annotated-03.webp",
           "alt": "辨认夹钳台位移传感器。图示夹钳台位移传感器。"
         },
         {
           "title": "分配设备名称",
           "text": "仅更换编码器或位移传感器，或更换电源线、网线但交换机端口不变时，在分布式 IO 中选择 Profinet IO-System（101）PN/IE_100，找到目标设备组态位置。进入「功能」→「分配 PROFINET 设备名称」，点击「更新列表」，选择新设备并点击「分配名称」。核对目标设备后再执行。",
-          "image": "./assets/images/procedures/inspection-encoder-04.webp",
+          "image": "./assets/images/procedures/inspection-encoder-annotated-04.webp",
           "alt": "分配设备名称。仅更换编码器或位移传感器，或更换电源线、网线但交换机端口不变时，在分布式 IO 中选择 Profinet IO-System（101）PN/IE_100，找到目标设备组态位置。进入「功能」→「分配 PROFINET 设备名称」，点击「更新列表」，选择新设备并点击「分配名称」。核对目标设备后再执行。"
         }
       ],
@@ -496,13 +496,13 @@
         {
           "title": "查看导向轮高度测量布置",
           "text": "附件展示入、出口导向轮高度测量的量具布置。小车具体位置及目标高度未给出。",
-          "image": "./assets/images/procedures/inspection-wheel-01.webp",
+          "image": "./assets/images/procedures/inspection-wheel-annotated-01.webp",
           "alt": "查看导向轮高度测量布置。附件展示入、出口导向轮高度测量的量具布置。小车具体位置及目标高度未给出。"
         },
         {
           "title": "查看测量表安装位置",
           "text": "图示导向轮及测量表位置。附件未提供允许偏差或完整调整步骤，具体调整按现场批准的手顺执行。",
-          "image": "./assets/images/procedures/inspection-wheel-02.webp",
+          "image": "./assets/images/procedures/inspection-wheel-annotated-02.webp",
           "alt": "查看测量表安装位置。图示导向轮及测量表位置。附件未提供允许偏差或完整调整步骤，具体调整按现场批准的手顺执行。"
         }
       ],
@@ -524,43 +524,43 @@
         {
           "title": "连接更换后的传感器",
           "text": "在线更换直线位移传感器，网线和电源线需一一对应。",
-          "image": "./assets/images/procedures/inspection-displacement-01.webp",
+          "image": "./assets/images/procedures/inspection-displacement-annotated-01.webp",
           "alt": "连接更换后的传感器。在线更换直线位移传感器，网线和电源线需一一对应。"
         },
         {
           "title": "观察传感器信号",
           "text": "观察新传感器信号是否恢复。原文称若恢复正常，设备名称及 IP 地址已自动分配；若使用过的传感器未恢复，继续以下名称分配步骤。",
-          "image": "./assets/images/procedures/inspection-displacement-02.webp",
+          "image": "./assets/images/procedures/inspection-displacement-annotated-02.webp",
           "alt": "观察传感器信号。观察新传感器信号是否恢复。原文称若恢复正常，设备名称及 IP 地址已自动分配；若使用过的传感器未恢复，继续以下名称分配步骤。"
         },
         {
           "title": "查找设备组态位置",
           "text": "打开博图，找到更换后位移传感器所在的设备组态位置。",
-          "image": "./assets/images/procedures/inspection-displacement-03.webp",
+          "image": "./assets/images/procedures/inspection-displacement-annotated-03.webp",
           "alt": "查找设备组态位置。打开博图，找到更换后位移传感器所在的设备组态位置。"
         },
         {
           "title": "选择分配名称与接口",
           "text": "在「功能」中选择「分配 PROFINET 设备名称」。原文示例接口类型为 PN/IE，网卡为 Motorcomm YT6801 Gigabit Ethernet Adapter；现场应选择实际连接设备的接口。",
-          "image": "./assets/images/procedures/inspection-displacement-04.webp",
+          "image": "./assets/images/procedures/inspection-displacement-annotated-04.webp",
           "alt": "选择分配名称与接口。在「功能」中选择「分配 PROFINET 设备名称」。原文示例接口类型为 PN/IE，网卡为 Motorcomm YT6801 Gigabit Ethernet Adapter；现场应选择实际连接设备的接口。"
         },
         {
           "title": "核对传感器 MAC 地址",
           "text": "读取传感器铭牌上的 MAC 地址，用于识别需要分配名称的设备。图中地址仅为附件示例。",
-          "image": "./assets/images/procedures/inspection-displacement-05.webp",
+          "image": "./assets/images/procedures/inspection-displacement-annotated-05.webp",
           "alt": "核对传感器 MAC 地址。读取传感器铭牌上的 MAC 地址，用于识别需要分配名称的设备。图中地址仅为附件示例。"
         },
         {
           "title": "选择匹配设备并分配名称",
           "text": "在列表中查找与目标传感器相同的 MAC 地址，确认设备后点击「分配名称」。",
-          "image": "./assets/images/procedures/inspection-displacement-06.webp",
+          "image": "./assets/images/procedures/inspection-displacement-annotated-06.webp",
           "alt": "选择匹配设备并分配名称。在列表中查找与目标传感器相同的 MAC 地址，确认设备后点击「分配名称」。"
         },
         {
           "title": "确认信号恢复",
           "text": "分配名称后查看设备状态和信号是否恢复正常。原文说明使用过的传感器可能保留原安装位置的设备名称。",
-          "image": "./assets/images/procedures/inspection-displacement-07.webp",
+          "image": "./assets/images/procedures/inspection-displacement-annotated-07.webp",
           "alt": "确认信号恢复。分配名称后查看设备状态和信号是否恢复正常。原文说明使用过的传感器可能保留原安装位置的设备名称。"
         }
       ],
@@ -586,56 +586,56 @@
         {
           "title": "关闭外光路冷却水阀",
           "text": "关闭外光路冷却水管进、出水阀门。",
-          "image": "./assets/images/procedures/inspection-optics-01.webp",
-          "alt": "关闭外光路冷却水阀，见图示"
+          "image": "./assets/images/procedures/inspection-optics-annotated-01.webp",
+          "alt": "关闭外光路冷却水阀。关闭外光路冷却水管进、出水阀门。"
         },
         {
           "title": "打开第二面反射镜",
           "text": "在小车出口侧松开三个固定螺丝，原文注明无固定顺序。水管已标记上下位置，清洁镜面可不拆水管。",
-          "image": "./assets/images/procedures/inspection-optics-02.webp",
-          "alt": "打开第二面反射镜，见图示"
+          "image": "./assets/images/procedures/inspection-optics-annotated-02.webp",
+          "alt": "打开第二面反射镜。在小车出口侧松开三个固定螺丝，原文注明无固定顺序。水管已标记上下位置，清洁镜面可不拆水管。"
         },
         {
           "title": "清洁反射镜",
           "text": "原文要求将研磨剂涂在镜面中心或棉花上，从中心向四周擦拭，直至研磨剂完全干。根据脏污情况至少清洁两次。水管未拆时产生水雾，用干棉花多次擦拭。",
-          "image": "./assets/images/procedures/inspection-optics-03.webp",
-          "alt": "清洁反射镜，见图示"
+          "image": "./assets/images/procedures/inspection-optics-annotated-03.webp",
+          "alt": "清洁反射镜。原文要求将研磨剂涂在镜面中心或棉花上，从中心向四周擦拭，直至研磨剂完全干。根据脏污情况至少清洁两次。水管未拆时产生水雾，用干棉花多次擦拭。"
         },
         {
           "title": "清洁镜座及镜口",
           "text": "用干棉花擦拭镜座四周及第二面反射镜镜口，图片以聚焦镜为例。",
-          "image": "./assets/images/procedures/inspection-optics-04.webp",
-          "alt": "清洁镜座及镜口，见图示"
+          "image": "./assets/images/procedures/inspection-optics-annotated-04.webp",
+          "alt": "清洁镜座及镜口。用干棉花擦拭镜座四周及第二面反射镜镜口，图片以聚焦镜为例。"
         },
         {
           "title": "松开入口侧导向轮螺丝",
           "text": "原文注明往右松开图中螺丝。",
-          "image": "./assets/images/procedures/inspection-optics-05.webp",
-          "alt": "松开入口侧导向轮螺丝，见图示"
+          "image": "./assets/images/procedures/inspection-optics-annotated-05.webp",
+          "alt": "松开入口侧导向轮螺丝。原文注明往右松开图中螺丝。"
         },
         {
           "title": "打开入口侧导向轮",
           "text": "图示导向轮及导向杆。",
-          "image": "./assets/images/procedures/inspection-optics-06.webp",
-          "alt": "打开入口侧导向轮，见图示"
+          "image": "./assets/images/procedures/inspection-optics-annotated-06.webp",
+          "alt": "打开入口侧导向轮。图示导向轮及导向杆。"
         },
         {
           "title": "退出导向杆",
           "text": "原文要求用扳手卡住，再用锤子向下敲，直至导向杆完全出来。",
-          "image": "./assets/images/procedures/inspection-optics-07.webp",
-          "alt": "退出导向杆，见图示"
+          "image": "./assets/images/procedures/inspection-optics-annotated-07.webp",
+          "alt": "退出导向杆。原文要求用扳手卡住，再用锤子向下敲，直至导向杆完全出来。"
         },
         {
           "title": "打开和清洁聚焦镜",
           "text": "按图示编号，松开进、出口水管后，按1→2→3→4依次松开固定螺丝。原文标注1为4×15螺丝，2、3、4为4×17mm螺丝；3号位置被水管遮挡，编号位置按附件截图标识。取出聚焦镜，将研磨剂涂于镜面中心或棉花上，从中心向四周擦拭至研磨剂完全干净，并清洁镜座四周，根据脏污情况至少清洁两次。安装按1→3→2→4先旋入，再逐步紧固。",
-          "image": "./assets/images/procedures/inspection-optics-numbered.webp",
-          "alt": "打开和清洁聚焦镜，见图示"
+          "image": "./assets/images/procedures/inspection-optics-annotated-08.webp",
+          "alt": "打开和清洁聚焦镜。按图示编号，松开进、出口水管后，按1→2→3→4依次松开固定螺丝。原文标注1为4×15螺丝，2、3、4为4×17mm螺丝；3号位置被水管遮挡，编号位置按附件截图标识。取出聚焦镜，将研磨剂涂于镜面中心或棉花上，从中心向四周擦拭至研磨剂完全干净，并清洁镜座四周，根据脏污情况至少清洁两次。安装按1→3→2→4先旋入，再逐步紧固。"
         },
         {
           "title": "安装导向轮并打开冷却水",
           "text": "按原文复装导向轮及导向杆，拧紧螺丝，打开外光路冷却水进、出水阀。",
-          "image": "./assets/images/procedures/inspection-optics-09.webp",
-          "alt": "安装导向轮并打开冷却水，见图示"
+          "image": "./assets/images/procedures/inspection-optics-annotated-09.webp",
+          "alt": "安装导向轮并打开冷却水。按原文复装导向轮及导向杆，拧紧螺丝，打开外光路冷却水进、出水阀。"
         }
       ]
     }
