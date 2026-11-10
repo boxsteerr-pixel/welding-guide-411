@@ -22,7 +22,7 @@ assert.equal(manual.inspection.length, 4);
 assert.deepEqual(manual.safety, []);
 assert.equal(manifest.start_url, "./");
 assert.equal(manifest.scope, "./");
-assert.match(sw, /const CACHE_NAME = "welding-guide-411-v30"/);
+assert.match(sw, /const CACHE_NAME = "welding-guide-411-v31"/);
 assert.match(html, /class="home-return" href="\.\.\/welding-guide-home\/"/);
 assert.match(html, /id="currentTime"/);
 assert.match(html, /system-time\.js\?v=1/);

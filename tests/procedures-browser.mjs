@@ -50,8 +50,8 @@ try {
   await page.locator('#search-input').press('Enter');
   await page.waitForFunction(()=>document.querySelectorAll('#fault-list details').length===8);
   await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
-  await page.waitForFunction(async()=>{const keys=await caches.keys();return keys.includes('welding-guide-411-v30');});
-  const cached=await page.evaluate(async()=>{const c=await caches.open('welding-guide-411-v30');return (await c.keys()).filter(r=>r.url.includes('/procedures/')).length;});
+  await page.waitForFunction(async()=>{const keys=await caches.keys();return keys.includes('welding-guide-411-v31');});
+  const cached=await page.evaluate(async()=>{const c=await caches.open('welding-guide-411-v31');return (await c.keys()).filter(r=>r.url.includes('/procedures/')).length;});
   assert.equal(cached,69);
   await context.setOffline(true);
   await page.reload();
@@ -64,3 +64,4 @@ try {
   assert.deepEqual(errors,[]);
   console.log(`PASS ${url}: 8 entries, 47 images, mobile layout, search, image viewer/position, offline reload`);
 } finally {if(browser)await browser.close();if(!target)await new Promise(resolve=>server.close(resolve));}
+
