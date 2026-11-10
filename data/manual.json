@@ -4,9 +4,9 @@
     "machineId": "411",
     "machineName": "411激光焊机",
     "manualTitle": "操作工快速处置手册",
-    "manualVersion": "0.8.4",
+    "manualVersion": "0.8.5",
     "contentStatus": "已录入8项异常处理及4项点检维护手顺",
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-10"
   },
   "notices": [
     {
@@ -386,8 +386,8 @@
         {
           "title": "同步程序块并完成",
           "text": "选择同步，传输完成后一切正常时点击“完成”。 选择同步，待传输完成出现总结窗口；一切正常时点击“完成”。程序块状态按原图恢复后，在左上角“项目（P）”中选择“归档（H）”，查看归档目标路径。",
-          "image": "./assets/images/procedures/tia-program-download-corrected-04.webp",
-          "alt": "原图红框：选择“同步”。"
+          "image": "./assets/images/procedures/tia-sync-clear-v1.webp",
+          "alt": "软件同步窗口，红框标出同步按钮"
         },
         {
           "title": "选择项目归档",

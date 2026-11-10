@@ -14,7 +14,7 @@ const manifest = JSON.parse(manifestText);
 
 assert.equal(manual.machine.machineId, "411");
 assert.equal(manual.machine.machineName, "411激光焊机");
-assert.equal(manual.machine.manualVersion, "0.8.4");
+assert.equal(manual.machine.manualVersion, "0.8.5");
 assert.equal(manual.faults.length, 8);
 assert.equal(new Set(manual.faults.map(item => item.id)).size, 8);
 assert.deepEqual(manual.maintenance, []);

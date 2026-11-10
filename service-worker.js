@@ -60,7 +60,7 @@ const CORE_ASSETS = [
   "./assets/images/procedures/tia-program-download-mobile-01.webp",
   "./assets/images/procedures/tia-program-download-mobile-02.webp",
   "./assets/images/procedures/tia-program-download-mobile-03.webp",
-  "./assets/images/procedures/tia-program-download-corrected-04.webp",
+  "./assets/images/procedures/tia-sync-clear-v1.webp",
   "./assets/images/procedures/tia-program-download-corrected-05.webp",
   "./assets/images/procedures/tia-program-download-mobile-06.webp",
   "./assets/images/procedures/tia-program-download-corrected-07.webp",
