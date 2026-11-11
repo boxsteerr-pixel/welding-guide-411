@@ -387,6 +387,7 @@
           "title": "同步程序块并完成",
           "text": "选择同步，传输完成后一切正常时点击“完成”。 选择同步，待传输完成出现总结窗口；一切正常时点击“完成”。程序块状态按原图恢复后，在左上角“项目（P）”中选择“归档（H）”，查看归档目标路径。",
           "image": "./assets/images/procedures/tia-sync-clear-v1.webp",
+          "imagePreview": "./assets/images/procedures/tia-sync-clear-v1-preview-mobile-v2.webp",
           "alt": "软件同步窗口，红框标出同步按钮"
         },
         {
@@ -531,6 +532,7 @@
           "title": "观察传感器信号",
           "text": "观察新传感器信号是否恢复。原文称若恢复正常，设备名称及 IP 地址已自动分配；若使用过的传感器未恢复，继续以下名称分配步骤。",
           "image": "./assets/images/procedures/inspection-displacement-mobile-notes-02.webp",
+          "imagePreview": "./assets/images/procedures/inspection-displacement-mobile-notes-02-preview-mobile-v2.webp",
           "alt": "观察传感器信号。观察新传感器信号是否恢复。原文称若恢复正常，设备名称及 IP 地址已自动分配；若使用过的传感器未恢复，继续以下名称分配步骤。"
         },
         {
