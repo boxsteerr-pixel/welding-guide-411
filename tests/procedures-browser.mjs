@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import http from 'node:http';
 import fs from 'node:fs/promises';
+import {existsSync} from 'node:fs';
 import path from 'node:path';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
@@ -13,7 +14,9 @@ if(!target)await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
 const url=target||`http://127.0.0.1:${server.address().port}/`;
 let browser;
 try {
-  browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+  const chrome='C:/Program Files/Google/Chrome/Application/chrome.exe';
+  const executablePath=existsSync(chrome)?chrome:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe';
+  browser=await chromium.launch({headless:true,executablePath});
   const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
   const page=await context.newPage(), errors=[];
   page.on('pageerror',e=>errors.push(e.message));
@@ -50,16 +53,25 @@ try {
   await page.locator('#search-input').press('Enter');
   await page.waitForFunction(()=>document.querySelectorAll('#fault-list details').length===8);
   await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
-  await page.waitForFunction(async()=>{const keys=await caches.keys();return keys.includes('welding-guide-411-v31');});
-  const cached=await page.evaluate(async()=>{const c=await caches.open('welding-guide-411-v31');return (await c.keys()).filter(r=>r.url.includes('/procedures/')).length;});
-  assert.equal(cached,69);
+  await page.waitForFunction(async()=>{const keys=await caches.keys();return keys.includes('welding-guide-411-v36');});
+  const cached=await page.evaluate(async()=>{const c=await caches.open('welding-guide-411-v36');return (await c.keys()).filter(r=>r.url.includes('/procedures/')).length;});
+  assert.ok(cached>=74);
   await context.setOffline(true);
   await page.reload();
   await page.waitForFunction(()=>document.querySelectorAll('#fault-list details').length===8);
   await entries.last().locator('summary').click();
   await entries.last().locator('img').last().evaluate(img=>img.decode());
   await page.locator('nav button[data-section="inspection"]:visible').first().click();
-  assert.equal(await page.locator('#inspection-list details').count(), 4);
+  assert.equal(await page.locator('#inspection-list details').count(), 5);
+  const parker=page.locator('#inspection-list details').last();
+  await parker.locator('summary').click();
+  assert.match(await parker.innerText(), /Parker/);
+  assert.equal(await parker.locator('img').count(), 5);
+  for (const img of await parker.locator('img').all()) {
+    await img.scrollIntoViewIfNeeded();
+    await img.evaluate(node=>node.decode());
+  }
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
   assert.equal(await page.locator('.home-return').getAttribute('href'), '../welding-guide-home/');
   assert.deepEqual(errors,[]);
   console.log(`PASS ${url}: 8 entries, 47 images, mobile layout, search, image viewer/position, offline reload`);

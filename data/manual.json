@@ -4,9 +4,9 @@
     "machineId": "411",
     "machineName": "411激光焊机",
     "manualTitle": "操作工快速处置手册",
-    "manualVersion": "0.8.5",
-    "contentStatus": "已录入8项异常处理及4项点检维护手顺",
-    "lastUpdated": "2026-11-10"
+    "manualVersion": "0.8.6",
+    "contentStatus": "已录入8项异常处理及5项点检维护手顺",
+    "lastUpdated": "2026-11-14"
   },
   "notices": [
     {
@@ -638,6 +638,52 @@
           "text": "按原文复装导向轮及导向杆，拧紧螺丝，打开外光路冷却水进、出水阀。",
           "image": "./assets/images/procedures/inspection-optics-corrected-09.webp",
           "alt": "安装导向轮并打开冷却水。按原文复装导向轮及导向杆，拧紧螺丝，打开外光路冷却水进、出水阀。"
+        }
+      ]
+    },
+    {
+      "id": "parker-pressure",
+      "title": "Parker 压力传感器使用方法",
+      "summary": "",
+      "risk": "high",
+      "keywords": [
+        "Parker",
+        "压力传感器",
+        "SP1",
+        "RSP1",
+        "对中",
+        "测试器"
+      ],
+      "steps": [
+        {
+          "title": "1#对中压力传感器",
+          "text": "从图纸了解到， ﹢极是1号线 （棕色）， - 极 是3号线（蓝色）",
+          "image": "./assets/images/procedures/parker-pressure-01.webp",
+          "alt": "1#对中压力传感器。从图纸了解到， ﹢极是1号线 （棕色）， - 极 是3号线（蓝色）"
+        },
+        {
+          "title": "传感器测试器装置",
+          "text": "",
+          "image": "./assets/images/procedures/parker-pressure-02.webp",
+          "alt": "传感器测试器装置。"
+        },
+        {
+          "title": "压力传感器调整模式",
+          "text": "长按 ① 和 ② 键（3s） ，即可进入压力传感器调整模式。",
+          "image": "./assets/images/procedures/parker-pressure-03.webp",
+          "alt": "压力传感器调整模式。长按 ① 和 ② 键（3s） ，即可进入压力传感器调整模式。"
+        },
+        {
+          "title": "SP1值",
+          "text": "",
+          "image": "./assets/images/procedures/parker-pressure-04.webp",
+          "alt": "SP1值。"
+        },
+        {
+          "title": "RSP1值",
+          "text": "了解SP1 和 RSP1 的不同 。\n1）首先 调整SP1 压力，如图设定为 5 bar，调整RSP1 压力作为 3bar\n2）压力数值到小到大，靠SP1值控制； 压力数值从大到小，靠RSP1 值控制。\n3）开关量从图纸中可以看出，一直处于常开。\n4）以对中装置为例，要想对中装置效果好，减小RSP1值。\n5）修改完后，要按中间的按钮，直到出现END，后即可退出调整模式。",
+          "image": "./assets/images/procedures/parker-pressure-05.webp",
+          "alt": "RSP1值。了解SP1 和 RSP1 的不同 。\n1）首先 调整SP1 压力，如图设定为 5 bar，调整RSP1 压力作为 3bar\n2）压力数值到小到大，靠SP1值控制； 压力数值从大到小，靠RSP1 值控制。\n3）开关量从图纸中可以看出，一直处于常开。\n4）以对中装置为例，要想对中装置效果好，减小RSP1值。\n5）修改完后，要按中间的按钮，直到出现END，后即可退出调整模式。"
         }
       ]
     }

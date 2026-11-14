@@ -78,7 +78,8 @@
         strong.append(text(`步骤 ${index + 1} · ${step.title || "操作"}`));
         const paragraph = document.createElement("p");
         paragraph.append(text(step.text || ""));
-        card.append(strong, paragraph);
+        card.append(strong);
+        if (step.text) card.append(paragraph);
         if (step.image) {
           const image = document.createElement("img");
           image.dataset.originalSrc = step.imagePreview ? step.image : "";
